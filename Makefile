@@ -1,7 +1,7 @@
 build:
 	jekyll build
-serve:
+serve: build
 	jekyll serve --watch --host "0.0.0.0"
-reset:
+reset: build
 	rm -rf docs/*
 	git checkout HEAD docs/
