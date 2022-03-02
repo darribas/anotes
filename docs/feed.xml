@@ -3,15 +3,18 @@
   <channel>
     <title>Academic notes</title>
     <description>Archive of academic notes</description>
-    <link>http://0.0.0.0:4000/anotes/</link>
-    <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Mar 2022 16:28:08 +0000</pubDate>
-    <lastBuildDate>Wed, 02 Mar 2022 16:28:08 +0000</lastBuildDate>
+    <link>/anotes/</link>
+    <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Mar 2022 17:57:37 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Mar 2022 17:57:37 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Levelling Up &amp; Moran's I</title>
-        <description>&lt;p&gt;Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full &lt;code class=&quot;highlighter-rouge&quot;&gt;#levellingupwhitepaper&lt;/code&gt; is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!&lt;/p&gt;
+        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1489162746046394369&quot;&gt;Twitter
+thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full &lt;code class=&quot;highlighter-rouge&quot;&gt;#levellingupwhitepaper&lt;/code&gt; is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!&lt;/p&gt;
 
 &lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&amp;amp;name=medium&quot; /&gt;&lt;figcaption&gt;The Figure&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -50,8 +53,37 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 </description>
         <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/lu</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/lu</guid>
+        <link>/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">/anotes/articles/22/lu</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>IPCC AR6 report</title>
+        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1428636769822597121&quot;&gt;Twitter
+thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I know the IPCC’s first instalment of the &lt;a href=&quot;https://www.ipcc.ch/report/ar6/wg1/&quot;&gt;AR6 report&lt;/a&gt; came out  last week, but it’s taken me a few days to digest. A few thoughts, more as a journaling exercise than anything else. In short: we need geography, data (science), and cities more than ever.&lt;/p&gt;
+
+&lt;p&gt;First, it’s stating the obvious but, as they say, the report makes for a “sober read”. I can’t understand anyone reading this and not concluding climate change is one of if not the defining event of our time.&lt;/p&gt;
+
+&lt;p&gt;Second, Geography. Much of the discussion is rightly around the global figures. I get this because you have to start communicating somewhere and this is probably a good start. But what the report makes clear to me is how uneven the physics of climate change are across space. To me this means understanding the nuance of geographical variation, boosting spatial thinking, and using it to integrate views is going to be in hot (pun intended) demand. If only we had a discipline that deals with much of this already… oh wait!!!&lt;/p&gt;
+
+&lt;p&gt;Third, data (science). This is again stating the obvious, but understanding and coping with climate change requires (a lot) of data and ways of making sense of them. This is not a “Data Science is the holy grail and will save us”  pitch, but ignoring that we need this tech and the skills required as part of the answer is even more deluded. We need more people comfortable working with modern data across the board (science, industry &amp;amp; gov).&lt;/p&gt;
+
+&lt;p&gt;Fourth, cities. I found one ref in the summary report, and it’s not pretty:&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;https://pbs.twimg.com/media/E9OEAurX0AUdlP5?format=jpg&amp;amp;name=large&quot; /&gt;&lt;figcaption&gt;Page 25. Summary for Policy Makers.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This report is focused on the physical fundamentals, and I’d expect to see more (and cheerier) on cities in the subsequent ones focused on impacts and adaptation. My view on cities and climate change is that they may generate localised effects but, paraphrasing the saying, “try the alternative”. That is, lodging the same amount of people and interactions in any other “form factor”. At any rate, cities are not all of the same kind, and we need more brain power directed at identifying how and making cities more climate change “aware”.&lt;/p&gt;
+
+&lt;p&gt;That’s all for now. My very strong recommendation is you pick up the “Summary for Policymakers”&lt;label for=&quot;report-url&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;report-url&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://www.ipcc.ch/report/ar6/wg1/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://www.ipcc.ch/report/ar6/wg1/&lt;/code&gt;&lt;/a&gt; &lt;/span&gt; and give it a go. It’s not a “page turner” and it’s definitely not the Schitt’s Creek of reports. But it’s worth every second of your time.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 20 Aug 2021 13:00:00 +0100</pubDate>
+        <link>/anotes/articles/21/ipcc</link>
+        <guid isPermaLink="true">/anotes/articles/21/ipcc</guid>
         
         
       </item>
