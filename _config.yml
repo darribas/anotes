@@ -1,0 +1,26 @@
+baseurl: /anotes
+title: Academic notes
+subtitle: Notes along the way
+author: Dani Arribas-Bel
+simple_search: http://google.com/search
+description: Archive of academic notes
+name: tufte
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+timezone: Europe/London
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+exclude: ['Makefile', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md', 'vendor']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: gvim
+git:
+  branch: master
+plugins: ['jekyll-paginate']
+paginate: 7
+paginate_path: "{{ site.baseurl }}/page:num/"
+destination: "docs"

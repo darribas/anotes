@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Levelling Up & Moran's I</title>
+  <meta name="description" content=" ⊕This text was originally posted as a Twitterthread Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the m...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/anotes/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/anotes/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="http://0.0.0.0:4000/anotes/articles/22/lu">
+
+  <link rel="alternate" type="application/rss+xml" title="Academic notes" href="http://0.0.0.0:4000/anotes/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+            <!--- Logo / Badge
+	<a href="/anotes/"><img class="badge" src="/anotes/assets/img/cropped-allende.jpg" alt="CH"></a>
+    -->
+		    
+    <a href="/anotes/"> NOTES </a>
+		    
+	
+		
+  	
+		
+  	
+		
+		    
+		      <a href="/anotes/about/">About</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/anotes/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Levelling Up & Moran's I</h1>
+<p class="subtitle">February 3, 2022</p>
+
+<p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1489162746046394369">Twitter
+thread</a> </span></p>
+
+<p>Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full <code class="highlighter-rouge">#levellingupwhitepaper</code> is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!</p>
+
+<figure class="fullwidth"><img src="https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&amp;name=medium" /><figcaption>The Figure&#8230;</figcaption></figure>
+
+<p>The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic <code class="highlighter-rouge">#DataScience</code> and spatial analysis courses alike (like mine! <a href="https://darribas.org/gds_course/">https://darribas.org/gds_course/</a>. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &lt;10min:</p>
+
+<figure><img src="https://pbs.twimg.com/media/FKqG2QmX0AAz5Bk?format=jpg&amp;name=medium" /><figcaption class="maincolumn-figure">Me, my living room, and spatial autocorrelation (check out the video <a href="https://darribas.org/gds_course/content/bF/concepts_F.html#spatial-autocorrelation">here</a>)</figcaption></figure>
+
+<p>Moran’s I is also a way to “summarise a map” in that it assigns a value to a pattern of spatial concentration. Your map looks like this? Moran’s I is high and approaching 1…</p>
+
+<figure><img src="https://pbs.twimg.com/media/FKqHa_xXEAIBxJe?format=png&amp;name=900x900" /><figcaption class="maincolumn-figure">High Moran&#8217;s I</figcaption></figure>
+
+<p>Your map looks like this? Moran’s I will be low and approaching -1…</p>
+
+<figure><img src="https://pbs.twimg.com/media/FKqHjSQWUAUeFg9?format=png&amp;name=900x900" /><figcaption class="maincolumn-figure">Low Moran&#8217;s I</figcaption></figure>
+
+<p>By the way, these figures are created using a small simulation tool<label for="voila" class="margin-toggle sidenote-number"></label><input type="checkbox" id="voila" class="margin-toggle" /><span class="sidenote">Launch it on the cloud from
+<a href="http://mybinder.org/repo/darribas/int_sp_auto">here</a>.
+<img src="https://pbs.twimg.com/media/FKqH7yJXEAEyjPG?format=jpg&amp;name=medium" alt="" />
+Thanks to the
+voila team &amp; <code class="highlighter-rouge">@mybinderteam</code> for the awesome infrastructure powering
+this! </span> I
+wrote to help students grasp the intuition behind the statistic, and
+you too can play with it! For a 14 minute version of what is Moran’s I and why you should love it, welcome back to my living room!</p>
+
+<figure><img src="https://pbs.twimg.com/media/FKqI3LWXEAIEYD3?format=jpg&amp;name=medium" /><figcaption class="maincolumn-figure">Me, my living room, and Moran&#8217;sI (check out the video <a href="https://darribas.org/gds_course/content/bF/concepts_F.html#global-spatial-autocorrelation">here</a>)</figcaption></figure>
+
+<p>This brings me back to Figure 1.23 in yesterday’s white paper, which took me a bit to decipher because it uses Moran’s I in a non-standard way. The point it’s trying to make is that cities w/ more income deprived population tend to display deprivation more spatially concentrated. This is an interesting pattern because it is saying that cities with more deprivation are also different in the way the deprivation is structured spatially (ie. more deprivation is related to more fundamental changes in how this is spatially configured).</p>
+
+<p>But while the graph is not wrong… it is also not entirely correct. It is well understood that Moran’s I scores (the statistic itself, which is on the vertical axis of the figure) are not directly comparable across different geographies. The reason is a bit technical, but has to do with comparing different sample sizes and spatial configurations of values. A topic for another thread perhaps… More importantly, Moran’s I is not that useful as a deterministic statistic, as a score. A value of 0.3 can mean something very different in two different local authorities. This has to do again with the underlying assumptions of the statistic, but mostly because in some cases we will have enough evidence to say that value points to spatial concentration and, in others, it will be indistinguishable from a completely spatially random map. I’d have probably used any visual cue (eg. dimming non-significant values) to emphasize this aspect and bring more nuance to the figure.</p>
+
+<p>Again, let me repeat the figure is not wrong. Using raw Moran’s I scores to gauge broad patterns is a sensible strategy to <em>explore</em> your data. Whether I’d choose to include the figure as it is on a final report is a different question…</p>
+
+<p>So, to wrap up, although there are always ways to improve, I think it is awesome that policy makers are using these tools to inform their views on the world the decide on. This will be a very good example for prospective geography students on why they should take my numbers course even though what they really want is to “make a difference in politics”! Could it be improved the way these statistics are used in policy? Of course, but that is as much a job of policy makers as it is for us academics and data scientists “in the know”. The solution is not to remove the figure, but to have more of them, and to generate discussion around it so, over time, we all collectively get better at using data and stats for big policy “things”.</p>
+
+<p>And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website<label for="Website" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Website" class="margin-toggle" /><span class="sidenote"><a href="https://darribas.org/gds_course"><code class="highlighter-rouge">https://darribas.org/gds_course</code></a> </span> or on the YouTube playlist<label for="Playlist" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Playlist" class="margin-toggle" /><span class="sidenote"><a href="https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU">YouTube Playlist</a> </span>! See you on the next big policy paper that uses spatial stats!</p>
+
+
+
+
+    </article>
+    <span class="print-footer">Levelling Up & Moran's I - February 3, 2022 - Dani Arribas-Bel</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.darribas.org"><span class="icon-html-five"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.twitter.com/darribas"><span class="icon-twitter"></span></a>
+      </li>
+      
+      <li>
+        <a href="/anotes/feed.xml"><span class="icon-rss2"></span></a>
+      </li>
+  </ul>
+<div class="credits">
+<span><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+        2022 &nbsp;&nbsp;DANI ARRIBAS-BEL</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Notes along the way </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

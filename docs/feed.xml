@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic notes</title>
+    <description>Archive of academic notes</description>
+    <link>http://0.0.0.0:4000/anotes/</link>
+    <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Mar 2022 16:28:08 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Mar 2022 16:28:08 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Levelling Up &amp; Moran's I</title>
+        <description>&lt;p&gt;Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full &lt;code class=&quot;highlighter-rouge&quot;&gt;#levellingupwhitepaper&lt;/code&gt; is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&amp;amp;name=medium&quot; /&gt;&lt;figcaption&gt;The Figure&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic &lt;code class=&quot;highlighter-rouge&quot;&gt;#DataScience&lt;/code&gt; and spatial analysis courses alike (like mine! &lt;a href=&quot;https://darribas.org/gds_course/&quot;&gt;https://darribas.org/gds_course/&lt;/a&gt;. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &amp;lt;10min:&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqG2QmX0AAz5Bk?format=jpg&amp;amp;name=medium&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Me, my living room, and spatial autocorrelation (check out the video &lt;a href=&quot;https://darribas.org/gds_course/content/bF/concepts_F.html#spatial-autocorrelation&quot;&gt;here&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Moran’s I is also a way to “summarise a map” in that it assigns a value to a pattern of spatial concentration. Your map looks like this? Moran’s I is high and approaching 1…&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqHa_xXEAIBxJe?format=png&amp;amp;name=900x900&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;High Moran&amp;#8217;s I&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Your map looks like this? Moran’s I will be low and approaching -1…&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqHjSQWUAUeFg9?format=png&amp;amp;name=900x900&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Low Moran&amp;#8217;s I&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;By the way, these figures are created using a small simulation tool&lt;label for=&quot;voila&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;voila&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Launch it on the cloud from
+&lt;a href=&quot;http://mybinder.org/repo/darribas/int_sp_auto&quot;&gt;here&lt;/a&gt;.
+&lt;img src=&quot;https://pbs.twimg.com/media/FKqH7yJXEAEyjPG?format=jpg&amp;amp;name=medium&quot; alt=&quot;&quot; /&gt;
+Thanks to the
+voila team &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;@mybinderteam&lt;/code&gt; for the awesome infrastructure powering
+this! &lt;/span&gt; I
+wrote to help students grasp the intuition behind the statistic, and
+you too can play with it! For a 14 minute version of what is Moran’s I and why you should love it, welcome back to my living room!&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqI3LWXEAIEYD3?format=jpg&amp;amp;name=medium&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Me, my living room, and Moran&amp;#8217;sI (check out the video &lt;a href=&quot;https://darribas.org/gds_course/content/bF/concepts_F.html#global-spatial-autocorrelation&quot;&gt;here&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This brings me back to Figure 1.23 in yesterday’s white paper, which took me a bit to decipher because it uses Moran’s I in a non-standard way. The point it’s trying to make is that cities w/ more income deprived population tend to display deprivation more spatially concentrated. This is an interesting pattern because it is saying that cities with more deprivation are also different in the way the deprivation is structured spatially (ie. more deprivation is related to more fundamental changes in how this is spatially configured).&lt;/p&gt;
+
+&lt;p&gt;But while the graph is not wrong… it is also not entirely correct. It is well understood that Moran’s I scores (the statistic itself, which is on the vertical axis of the figure) are not directly comparable across different geographies. The reason is a bit technical, but has to do with comparing different sample sizes and spatial configurations of values. A topic for another thread perhaps… More importantly, Moran’s I is not that useful as a deterministic statistic, as a score. A value of 0.3 can mean something very different in two different local authorities. This has to do again with the underlying assumptions of the statistic, but mostly because in some cases we will have enough evidence to say that value points to spatial concentration and, in others, it will be indistinguishable from a completely spatially random map. I’d have probably used any visual cue (eg. dimming non-significant values) to emphasize this aspect and bring more nuance to the figure.&lt;/p&gt;
+
+&lt;p&gt;Again, let me repeat the figure is not wrong. Using raw Moran’s I scores to gauge broad patterns is a sensible strategy to &lt;em&gt;explore&lt;/em&gt; your data. Whether I’d choose to include the figure as it is on a final report is a different question…&lt;/p&gt;
+
+&lt;p&gt;So, to wrap up, although there are always ways to improve, I think it is awesome that policy makers are using these tools to inform their views on the world the decide on. This will be a very good example for prospective geography students on why they should take my numbers course even though what they really want is to “make a difference in politics”! Could it be improved the way these statistics are used in policy? Of course, but that is as much a job of policy makers as it is for us academics and data scientists “in the know”. The solution is not to remove the figure, but to have more of them, and to generate discussion around it so, over time, we all collectively get better at using data and stats for big policy “things”.&lt;/p&gt;
+
+&lt;p&gt;And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website&lt;label for=&quot;Website&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Website&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://darribas.org/gds_course&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://darribas.org/gds_course&lt;/code&gt;&lt;/a&gt; &lt;/span&gt; or on the YouTube playlist&lt;label for=&quot;Playlist&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Playlist&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU&quot;&gt;YouTube Playlist&lt;/a&gt; &lt;/span&gt;! See you on the next big policy paper that uses spatial stats!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
+        <link>http://0.0.0.0:4000/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/lu</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
