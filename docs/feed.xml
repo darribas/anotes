@@ -3,11 +3,46 @@
   <channel>
     <title>Academic notes</title>
     <description>Archive of academic notes</description>
-    <link>/anotes/</link>
-    <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Mar 2022 17:57:37 +0000</pubDate>
-    <lastBuildDate>Wed, 02 Mar 2022 17:57:37 +0000</lastBuildDate>
+    <link>http://0.0.0.0:4000/anotes/</link>
+    <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 15 Mar 2022 08:35:58 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Mar 2022 08:35:58 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Professor</title>
+        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1503648739868790787&quot;&gt;Twitter
+thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Last month I was promoted to Professor at Liverpool. To say I’m
+humbled is a bit of an understatement… It’s still a blur and suspect
+it’ll take a while to sink in. So, while that percolates, here’s
+a thought crystal clear in my mind: they call it “chair”, but professor
+really should be “bench”.
+If the “chair” is partly reward for the achievements of a career, it
+really would be best represented as a bench that can accommodate all
+the folks who’ve make it possible. And there’re always many of them!
+Part of it is the proverbial “giant shoulder-standing”, but there is
+also the more down-to-earth mentorship, collaboration, peer-support,
+and general “ass saving” academic networks provide when everything
+else falls.&lt;/p&gt;
+
+&lt;p&gt;In my case, I cannot think of a single achievement I’m truly proud of
+for which I’m solely responsible. It is impossible to understand my
+career without the context in which it’s happened, and that has always
+been one or another community or colective. So, while I truly am
+chuffed about the sound of “prof Dani”, let’s not forget
+how these successes are really made and the mechanisms and social
+infrastructure that makes them possible. And let’s nurture them
+accordingly.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+        <link>http://0.0.0.0:4000/anotes/articles/22/prof</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/prof</guid>
+        
+        
+      </item>
     
       <item>
         <title>Levelling Up &amp; Moran's I</title>
@@ -53,8 +88,8 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 </description>
         <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
-        <link>/anotes/articles/22/lu</link>
-        <guid isPermaLink="true">/anotes/articles/22/lu</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/lu</guid>
         
         
       </item>
@@ -82,8 +117,8 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 20 Aug 2021 13:00:00 +0100</pubDate>
-        <link>/anotes/articles/21/ipcc</link>
-        <guid isPermaLink="true">/anotes/articles/21/ipcc</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/21/ipcc</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/ipcc</guid>
         
         
       </item>
