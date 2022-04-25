@@ -1,56 +1,25 @@
 ---
-title:  "Open Data Products paper"
+title:  "Best books of 2021"
 layout: post
-date:   2021-10-22 12:00:00
+date:   2021-12-27 12:00:00
 ---
 
 {% marginnote "twitter-thread" "This text was originally posted as a [Twitter
 thread](https://twitter.com/darribas/status/1475505545146683397)" %}
 
+With a "best-of-the-year-list spirit" on, and similar to [last year](https://twitter.com/darribas/status/1340979325269667842), these past twelve months I have been able to maintain a bit more sanity and fill in the travelling gap with books. Here's my Top-3 (with a bonus for good measure), in no particular order as they're all equally different and amazing.
+
+{% fullwidth "https://pbs.twimg.com/media/FHn6U_7XIAgp5Cn?format=jpg&name=large" "The year in books..." %}
+
+"The Ministry for the Future", by Kim Stanley Robinson, is a space to think about life on earth in the next century more than anything else. [This](https://twitter.com/darribas/status/1380477463449468929) is what I said about it in April and, also related, [here're my thoughts](https://darribas.org/anotes/articles/21/ipcc) from august about the IPCC recent report.
 
 
+Blockchain Chicken Farm, by Xiaowei Wang, is a fascinating collection of short stories about how technology and the XXIst Century intersect with rural China. Insightful, respectful, and fun.
 
+My favorite urban(-related) read of the year was Sarah Williams's Data Action. Again, [this](https://twitter.com/darribas/status/1369573142423863301) is what I said back in March, and it's still fresh as freshly ground coffee beans.
 
+And Honorary mention (because I'm _still_ reading, but already *know* it's part of the List) goes to the 2nd Ed of Francois Chollet's [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python). Intuitive, big-picture, and *also* practical. I wish every bit of data science had a book like this!
 
-
-
-
-Plenty of folks better placed to deliver hot takes so I'll spare you mine... But, by my own account, the most statistically sophisticated fig in the full `#levellingupwhitepaper` is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!
-
-{% fullwidth "https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&name=medium" "The Figure..." %}
-
-The plot shows Moran's I vs deprivation prevalence in Local Authorities. What's Moran's I? I'm glad you asked, this is a staple of Geographic `#DataScience` and spatial analysis courses alike (like mine! [https://darribas.org/gds_course/](https://darribas.org/gds_course/). Moran's I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here's me in my living room last year explaining pandemic-distanced students what it is in <10min:
-
-{% maincolumn "https://pbs.twimg.com/media/FKqG2QmX0AAz5Bk?format=jpg&name=medium" "Me, my living room, and spatial autocorrelation (check out the video [here](https://darribas.org/gds_course/content/bF/concepts_F.html#spatial-autocorrelation))" %}
-
-Moran's I is also a way to "summarise a map" in that it assigns a value to a pattern of spatial concentration. Your map looks like this? Moran's I is high and approaching 1...
-
-{%  maincolumn "https://pbs.twimg.com/media/FKqHa_xXEAIBxJe?format=png&name=900x900" "High Moran's I" %}
-
-Your map looks like this? Moran's I will be low and approaching -1...
-
-{%  maincolumn "https://pbs.twimg.com/media/FKqHjSQWUAUeFg9?format=png&name=900x900" "Low Moran's I" %}
-
-By the way, these figures are created using a small simulation tool{%  
-sidenote "voila" "Launch it on the cloud from
-[here](http://mybinder.org/repo/darribas/int_sp_auto).
-![](https://pbs.twimg.com/media/FKqH7yJXEAEyjPG?format=jpg&name=medium)
-Thanks to the
-voila team & `@mybinderteam` for the awesome infrastructure powering
-this!" %} I
-wrote to help students grasp the intuition behind the statistic, and
-you too can play with it! For a 14 minute version of what is Moran's I and why you should love it, welcome back to my living room!
-
-{% maincolumn "https://pbs.twimg.com/media/FKqI3LWXEAIEYD3?format=jpg&name=medium" "Me, my living room, and Moran'sI (check out the video [here](https://darribas.org/gds_course/content/bF/concepts_F.html#global-spatial-autocorrelation))" %}
-
-This brings me back to Figure 1.23 in yesterday's white paper, which took me a bit to decipher because it uses Moran's I in a non-standard way. The point it's trying to make is that cities w/ more income deprived population tend to display deprivation more spatially concentrated. This is an interesting pattern because it is saying that cities with more deprivation are also different in the way the deprivation is structured spatially (ie. more deprivation is related to more fundamental changes in how this is spatially configured).
-
-But while the graph is not wrong... it is also not entirely correct. It is well understood that Moran's I scores (the statistic itself, which is on the vertical axis of the figure) are not directly comparable across different geographies. The reason is a bit technical, but has to do with comparing different sample sizes and spatial configurations of values. A topic for another thread perhaps... More importantly, Moran's I is not that useful as a deterministic statistic, as a score. A value of 0.3 can mean something very different in two different local authorities. This has to do again with the underlying assumptions of the statistic, but mostly because in some cases we will have enough evidence to say that value points to spatial concentration and, in others, it will be indistinguishable from a completely spatially random map. I'd have probably used any visual cue (eg. dimming non-significant values) to emphasize this aspect and bring more nuance to the figure.
-
-Again, let me repeat the figure is not wrong. Using raw Moran's I scores to gauge broad patterns is a sensible strategy to *explore* your data. Whether I'd choose to include the figure as it is on a final report is a different question...
-
-So, to wrap up, although there are always ways to improve, I think it is awesome that policy makers are using these tools to inform their views on the world the decide on. This will be a very good example for prospective geography students on why they should take my numbers course even though what they really want is to "make a difference in politics"! Could it be improved the way these statistics are used in policy? Of course, but that is as much a job of policy makers as it is for us academics and data scientists "in the know". The solution is not to remove the figure, but to have more of them, and to generate discussion around it so, over time, we all collectively get better at using data and stats for big policy "things".
-
-And that's a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website{% sidenote "Website" "[`https://darribas.org/gds_course`](https://darribas.org/gds_course)" %} or on the YouTube playlist{% sidenote "Playlist" "[YouTube Playlist](https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU)" %}! See you on the next big policy paper that uses spatial stats!
-
+If you're still reading and want to lurk more, [here's my list from 2020](https://twitter.com/darribas/status/1340979325269667842).
+I'm always on the hunt for good books on computers, cities, and data (or anything else worth reading!) so, if you have good recommendations, feel free to send them my way! 
 
