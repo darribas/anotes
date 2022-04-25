@@ -3,10 +3,10 @@
   <channel>
     <title>Academic notes</title>
     <description>Archive of academic notes</description>
-    <link>http://0.0.0.0:4000/anotes/</link>
-    <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Mar 2022 08:35:58 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Mar 2022 08:35:58 +0000</lastBuildDate>
+    <link>/anotes/</link>
+    <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 Apr 2022 17:19:55 +0100</pubDate>
+    <lastBuildDate>Mon, 25 Apr 2022 17:19:55 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -38,8 +38,8 @@ accordingly.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/prof</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/prof</guid>
+        <link>/anotes/articles/22/prof</link>
+        <guid isPermaLink="true">/anotes/articles/22/prof</guid>
         
         
       </item>
@@ -88,8 +88,70 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 </description>
         <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/lu</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/lu</guid>
+        <link>/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">/anotes/articles/22/lu</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best books of 2021</title>
+        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1475505545146683397&quot;&gt;Twitter
+thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;With a “best-of-the-year-list spirit” on, and similar to &lt;a href=&quot;https://twitter.com/darribas/status/1340979325269667842&quot;&gt;last year&lt;/a&gt;, these past twelve months I have been able to maintain a bit more sanity and fill in the travelling gap with books. Here’s my Top-3 (with a bonus for good measure), in no particular order as they’re all equally different and amazing.&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FHn6U_7XIAgp5Cn?format=jpg&amp;amp;name=large&quot; /&gt;&lt;figcaption&gt;The year in books&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;“The Ministry for the Future”, by Kim Stanley Robinson, is a space to think about life on earth in the next century more than anything else. &lt;a href=&quot;https://twitter.com/darribas/status/1380477463449468929&quot;&gt;This&lt;/a&gt; is what I said about it in April and, also related, &lt;a href=&quot;https://darribas.org/anotes/articles/21/ipcc&quot;&gt;here’re my thoughts&lt;/a&gt; from august about the IPCC recent report.&lt;/p&gt;
+
+&lt;p&gt;Blockchain Chicken Farm, by Xiaowei Wang, is a fascinating collection of short stories about how technology and the XXIst Century intersect with rural China. Insightful, respectful, and fun.&lt;/p&gt;
+
+&lt;p&gt;My favorite urban(-related) read of the year was Sarah Williams’s Data Action. Again, &lt;a href=&quot;https://twitter.com/darribas/status/1369573142423863301&quot;&gt;this&lt;/a&gt; is what I said back in March, and it’s still fresh as freshly ground coffee beans.&lt;/p&gt;
+
+&lt;p&gt;And Honorary mention (because I’m &lt;em&gt;still&lt;/em&gt; reading, but already &lt;em&gt;know&lt;/em&gt; it’s part of the List) goes to the 2nd Ed of Francois Chollet’s &lt;a href=&quot;https://www.manning.com/books/deep-learning-with-python&quot;&gt;Deep Learning with Python&lt;/a&gt;. Intuitive, big-picture, and &lt;em&gt;also&lt;/em&gt; practical. I wish every bit of data science had a book like this!&lt;/p&gt;
+
+&lt;p&gt;If you’re still reading and want to lurk more, &lt;a href=&quot;https://twitter.com/darribas/status/1340979325269667842&quot;&gt;here’s my list from 2020&lt;/a&gt;.
+I’m always on the hunt for good books on computers, cities, and data (or anything else worth reading!) so, if you have good recommendations, feel free to send them my way!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 27 Dec 2021 12:00:00 +0000</pubDate>
+        <link>/anotes/articles/21/bestofbooks</link>
+        <guid isPermaLink="true">/anotes/articles/21/bestofbooks</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Open Data Products paper</title>
+        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1451522005505875992&quot;&gt;Twitter
+thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Together with Mark Green, Francisco Rowe, and Alex Singleton, we have a &lt;a href=&quot;https://link.springer.com/article/10.1007/s10109-021-00363-5&quot;&gt;new paper&lt;/a&gt; out in the Journal of Geographical Systems pushing forward the idea of Open Data Products as a vehicle to make (Geographic) Data Science more impactful.&lt;/p&gt;
+
+&lt;p&gt;We define Open Data Product as &lt;em&gt;“the open result of transparent processes
+through which a variety of data (open and not) are turned into accessible
+information through a service, infrastructure, analytics or a combination of
+all of them, where each step of development follows open principles.&lt;/em&gt; We argue there’re at least three building blocks of an ODP: a need, a value proposition, Geographic Data Science, and outreach. Let me unpack each a bit.&lt;/p&gt;
+
+&lt;p&gt;First, the need. ODPs are born out of trying to scratch an itch. We think this process is most useful when co-produced with stake-holders who’ll benefit from it most. The &lt;a href=&quot;https://twitter.com/markalangreen/status/1448266593654480899&quot;&gt;recent award&lt;/a&gt; to our own Mark Green and Jacob MacDonald for Local Data Spaces is a great example.&lt;/p&gt;
+
+&lt;p&gt;Second, value: it’s not enough to identify a gap, ODPs also need to &lt;em&gt;fill&lt;/em&gt; it beyond what is available. This means publishing existing datasets on their own is usually not enough. So, how do you add value?&lt;/p&gt;
+
+&lt;p&gt;Third, Geographic Data Science. Geographic Data Science: we argue, given the undergoing data revolution where many datasets are not quite ready for use at the point of release, much of the contribution of ODPs resides in applying &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1111/gean.12194&quot;&gt;(Geographic) Data Science&lt;/a&gt; to turn them into analysis-ready.&lt;/p&gt;
+
+&lt;p&gt;Fourth, outreach. Just because something is “out there” doesn’t mean people know about it or will use it. Paraphrasing the old say: “if you build it, they’ll come… if you call them, signpost the way, and welcome them”. Another home-grown example of good outreach includes the &lt;a href=&quot;https://twitter.com/Fcorowe/status/1419929045861605380&quot;&gt;work&lt;/a&gt; led by our own Francisco Rowe and Nikos Patias to inform policies on inequalities in the UK.&lt;/p&gt;
+
+&lt;p&gt;In the paper we also identify challenges that will probably make the world see less ODPs than it should, mostly related to incentives &amp;amp; sustainability. We need to be mindful and work around them… And, finally, we close drawing parallels w/ the open source software revolution from 20 years ago. The “new kid in the block” is not software anymore but data, and most research will be unlocked (or not) by what we do with them.&lt;/p&gt;
+
+&lt;p&gt;A last note: we started this four years ago and a lot has happened in the world of data. If anything, my personal view is we underestimated the effects of some of the developments we documented.&lt;/p&gt;
+
+&lt;p&gt;In any case, it is now out for everyone to read and, hopefully, comment/rant/(dis)agree and stimulate the conversation so we can make the most out of what we believe is the most significant changes for the (social) sciences this century.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 22 Oct 2021 13:00:00 +0100</pubDate>
+        <link>/anotes/articles/21/odp</link>
+        <guid isPermaLink="true">/anotes/articles/21/odp</guid>
         
         
       </item>
@@ -117,8 +179,8 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 20 Aug 2021 13:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/21/ipcc</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/ipcc</guid>
+        <link>/anotes/articles/21/ipcc</link>
+        <guid isPermaLink="true">/anotes/articles/21/ipcc</guid>
         
         
       </item>
