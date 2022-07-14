@@ -3,11 +3,45 @@
   <channel>
     <title>Academic notes</title>
     <description>Archive of academic notes</description>
-    <link>/anotes/</link>
-    <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Jun 2022 12:46:16 +0100</pubDate>
-    <lastBuildDate>Thu, 30 Jun 2022 12:46:16 +0100</lastBuildDate>
+    <link>http://0.0.0.0:4000/anotes/</link>
+    <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 Jul 2022 12:41:51 +0100</pubDate>
+    <lastBuildDate>Thu, 14 Jul 2022 12:41:51 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Open by Default talk</title>
+        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1547539954691182596&quot;&gt;Twitter
+thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m super glad the lovely &lt;a href=&quot;https://twitter.com/RSSMerseyside&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@RSSMerseyside&lt;/code&gt;&lt;/a&gt;/&lt;a href=&quot;https://twitter.com/hipyliv&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@hipyliv&lt;/code&gt;&lt;/a&gt; folks put together the “Using open data sources” event and made the recording available:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3hYWLYApoA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I contributed the talk “Open by default - Developing reproducible, computational research”. You can find more info about the talk at &lt;a href=&quot;https://urbangrammarai.xyz/blog/post29_obd.html&quot;&gt;here&lt;/a&gt;. In this post, I’ll provide a bit of background.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;kitchen_sausage&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;kitchen_sausage&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;https://pbs.twimg.com/media/FXnzBeyXwAAOWh0?format=jpg&amp;amp;name=4096x4096&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;https://urbangrammarai.xyz/talks/202206_rss_merseyside/index.html#/needs/0&quot;&gt;Slide&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;For the last +2 years, Martin Fleischmann and I have been working on the Urban Grammar project, funded by ESRC and the Alan Turing Institute to develop new ways of understanding (urban) form and function through (satellite) data and machine learning (all project info at the &lt;a href=&quot;https://urbangrammarai.xyz&quot;&gt;project page&lt;/a&gt;). From Day 1, we had very clear we wanted to take an open approach to the project, and that this shouldn’t only apply to its outputs, but also to the &lt;em&gt;process&lt;/em&gt; to get there. From that point onward, almost every decision we made in the project was guided by that principle. The talk covers in a (roughly) structured the areas we paid particular attention, namely aspects of process (a.k.a. the “kitchen”) and aspects of output (a.k.a. the “sausage”).&lt;/p&gt;
+
+&lt;p&gt;Our taken on “Open by default” (by no means invented by us!) is based on three key principles:&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/anotes/principles&quot; /&gt;&lt;figcaption&gt;https://pbs.twimg.com/media/FXn0yFfXEAQCHSI?format=jpg&amp;amp;name=4096x4096&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;label for=&quot;ORS&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ORS&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;The quote, like so much inspiration, has been blatantly stolen from a &lt;a href=&quot;https://link.springer.com/article/10.1007/s00168-014-0611-7&quot;&gt;paper&lt;/a&gt; by Serge Rey (ironically, paywalled). &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re not claiming this will work for &lt;em&gt;every&lt;/em&gt; research project, but it has for a data/computation intensive one like ours. We have discovered many things we didn’t anticipate (mostly how useful it is even just for us to constantly work in the open), and this talk is an attempt to put a bit of structure into those thoughts. The key takeaways though are simple:&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/anotes/takeaways&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;https://pbs.twimg.com/media/FXn1ULnXoAEXK35?format=jpg&amp;amp;name=4096x4096&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;In academia, we talk a lot about outputs, but very little about process. &lt;em&gt;How&lt;/em&gt; we do research and why different approaches yield different outcomes even if the results are seemingly the same matters. We should discuss it more, share best practices and learn from each other.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Jul 2022 01:00:00 +0100</pubDate>
+        <link>http://0.0.0.0:4000/anotes/articles/22/obd</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/obd</guid>
+        
+        
+      </item>
     
       <item>
         <title>WUF 11</title>
@@ -117,8 +151,8 @@ cities. I’m glad I came and I hope it is not the last time.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 30 Jun 2022 01:00:00 +0100</pubDate>
-        <link>/anotes/articles/22/wuf</link>
-        <guid isPermaLink="true">/anotes/articles/22/wuf</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/22/wuf</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/wuf</guid>
         
         
       </item>
@@ -152,8 +186,8 @@ accordingly.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
-        <link>/anotes/articles/22/prof</link>
-        <guid isPermaLink="true">/anotes/articles/22/prof</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/22/prof</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/prof</guid>
         
         
       </item>
@@ -202,8 +236,8 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 </description>
         <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
-        <link>/anotes/articles/22/lu</link>
-        <guid isPermaLink="true">/anotes/articles/22/lu</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/lu</guid>
         
         
       </item>
@@ -230,8 +264,8 @@ I’m always on the hunt for good books on computers, cities, and data (or anyth
 
 </description>
         <pubDate>Mon, 27 Dec 2021 12:00:00 +0000</pubDate>
-        <link>/anotes/articles/21/bestofbooks</link>
-        <guid isPermaLink="true">/anotes/articles/21/bestofbooks</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/21/bestofbooks</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/bestofbooks</guid>
         
         
       </item>
@@ -264,8 +298,8 @@ all of them, where each step of development follows open principles.&lt;/em&gt; 
 
 </description>
         <pubDate>Fri, 22 Oct 2021 13:00:00 +0100</pubDate>
-        <link>/anotes/articles/21/odp</link>
-        <guid isPermaLink="true">/anotes/articles/21/odp</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/21/odp</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/odp</guid>
         
         
       </item>
@@ -293,8 +327,8 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 20 Aug 2021 13:00:00 +0100</pubDate>
-        <link>/anotes/articles/21/ipcc</link>
-        <guid isPermaLink="true">/anotes/articles/21/ipcc</guid>
+        <link>http://0.0.0.0:4000/anotes/articles/21/ipcc</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/ipcc</guid>
         
         
       </item>

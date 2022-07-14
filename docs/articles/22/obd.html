@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Open by Default talk</title>
+  <meta name="description" content=" ⊕This text was originally posted as a Twitterthread I’m super glad the lovely @RSSMerseyside/@hipyliv folks put together the “Using open data sources” event...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/anotes/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/anotes/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="http://0.0.0.0:4000/anotes/articles/22/obd">
+
+  <link rel="alternate" type="application/rss+xml" title="Academic notes" href="http://0.0.0.0:4000/anotes/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+            <!--- Logo / Badge
+	<a href="/anotes/"><img class="badge" src="/anotes/assets/img/cropped-allende.jpg" alt="CH"></a>
+    -->
+		    
+    <a href="/anotes/"> NOTES </a>
+		    
+	
+		
+  	
+		
+  	
+		
+		    
+		      <a href="/anotes/about/">About</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/anotes/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Open by Default talk</h1>
+<p class="subtitle">July 14, 2022</p>
+
+<p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1547539954691182596">Twitter
+thread</a> </span></p>
+
+<p>I’m super glad the lovely <a href="https://twitter.com/RSSMerseyside"><code class="highlighter-rouge">@RSSMerseyside</code></a>/<a href="https://twitter.com/hipyliv"><code class="highlighter-rouge">@hipyliv</code></a> folks put together the “Using open data sources” event and made the recording available:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u3hYWLYApoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>I contributed the talk “Open by default - Developing reproducible, computational research”. You can find more info about the talk at <a href="https://urbangrammarai.xyz/blog/post29_obd.html">here</a>. In this post, I’ll provide a bit of background.</p>
+
+<p><label for="kitchen_sausage" class="margin-toggle">⊕</label><input type="checkbox" id="kitchen_sausage" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="https://pbs.twimg.com/media/FXnzBeyXwAAOWh0?format=jpg&amp;name=4096x4096" /><br /><a href="https://urbangrammarai.xyz/talks/202206_rss_merseyside/index.html#/needs/0">Slide</a></span></p>
+
+<p>For the last +2 years, Martin Fleischmann and I have been working on the Urban Grammar project, funded by ESRC and the Alan Turing Institute to develop new ways of understanding (urban) form and function through (satellite) data and machine learning (all project info at the <a href="https://urbangrammarai.xyz">project page</a>). From Day 1, we had very clear we wanted to take an open approach to the project, and that this shouldn’t only apply to its outputs, but also to the <em>process</em> to get there. From that point onward, almost every decision we made in the project was guided by that principle. The talk covers in a (roughly) structured the areas we paid particular attention, namely aspects of process (a.k.a. the “kitchen”) and aspects of output (a.k.a. the “sausage”).</p>
+
+<p>Our taken on “Open by default” (by no means invented by us!) is based on three key principles:</p>
+
+<figure class="fullwidth"><img src="/anotes/principles" /><figcaption>https://pbs.twimg.com/media/FXn0yFfXEAQCHSI?format=jpg&amp;name=4096x4096</figcaption></figure>
+
+<p><label for="ORS" class="margin-toggle"> ⊕</label><input type="checkbox" id="ORS" class="margin-toggle" /><span class="marginnote">The quote, like so much inspiration, has been blatantly stolen from a <a href="https://link.springer.com/article/10.1007/s00168-014-0611-7">paper</a> by Serge Rey (ironically, paywalled). </span></p>
+
+<p>We’re not claiming this will work for <em>every</em> research project, but it has for a data/computation intensive one like ours. We have discovered many things we didn’t anticipate (mostly how useful it is even just for us to constantly work in the open), and this talk is an attempt to put a bit of structure into those thoughts. The key takeaways though are simple:</p>
+
+<figure><img src="/anotes/takeaways" /><figcaption class="maincolumn-figure">https://pbs.twimg.com/media/FXn1ULnXoAEXK35?format=jpg&amp;name=4096x4096</figcaption></figure>
+
+<p>In academia, we talk a lot about outputs, but very little about process. <em>How</em> we do research and why different approaches yield different outcomes even if the results are seemingly the same matters. We should discuss it more, share best practices and learn from each other.</p>
+
+
+
+    </article>
+    <span class="print-footer">Open by Default talk - July 14, 2022 - Dani Arribas-Bel</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.darribas.org"><span class="icon-html-five"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.twitter.com/darribas"><span class="icon-twitter"></span></a>
+      </li>
+      
+      <li>
+        <a href="/anotes/feed.xml"><span class="icon-rss2"></span></a>
+      </li>
+  </ul>
+<div class="credits">
+<span><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+        2022 &nbsp;&nbsp;DANI ARRIBAS-BEL</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Notes along the way </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
