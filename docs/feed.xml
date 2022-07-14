@@ -5,8 +5,8 @@
     <description>Archive of academic notes</description>
     <link>http://0.0.0.0:4000/anotes/</link>
     <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Jul 2022 12:41:51 +0100</pubDate>
-    <lastBuildDate>Thu, 14 Jul 2022 12:41:51 +0100</lastBuildDate>
+    <pubDate>Thu, 14 Jul 2022 12:50:23 +0100</pubDate>
+    <lastBuildDate>Thu, 14 Jul 2022 12:50:23 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -26,13 +26,13 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Our taken on “Open by default” (by no means invented by us!) is based on three key principles:&lt;/p&gt;
 
-&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/anotes/principles&quot; /&gt;&lt;figcaption&gt;https://pbs.twimg.com/media/FXn0yFfXEAQCHSI?format=jpg&amp;amp;name=4096x4096&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FXn0yFfXEAQCHSI?format=jpg&amp;amp;name=4096x4096&quot; /&gt;&lt;figcaption&gt;&lt;a href=&quot;https://urbangrammarai.xyz/talks/202206_rss_merseyside/index.html#/open-by-default-1&quot;&gt;Slide&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;label for=&quot;ORS&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ORS&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;The quote, like so much inspiration, has been blatantly stolen from a &lt;a href=&quot;https://link.springer.com/article/10.1007/s00168-014-0611-7&quot;&gt;paper&lt;/a&gt; by Serge Rey (ironically, paywalled). &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;We’re not claiming this will work for &lt;em&gt;every&lt;/em&gt; research project, but it has for a data/computation intensive one like ours. We have discovered many things we didn’t anticipate (mostly how useful it is even just for us to constantly work in the open), and this talk is an attempt to put a bit of structure into those thoughts. The key takeaways though are simple:&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/anotes/takeaways&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;https://pbs.twimg.com/media/FXn1ULnXoAEXK35?format=jpg&amp;amp;name=4096x4096&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FXn1ULnXoAEXK35?format=jpg&amp;amp;name=4096x4096&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;a href=&quot;https://urbangrammarai.xyz/talks/202206_rss_merseyside/index.html#/the-takeaway&quot;&gt;Slide&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;In academia, we talk a lot about outputs, but very little about process. &lt;em&gt;How&lt;/em&gt; we do research and why different approaches yield different outcomes even if the results are seemingly the same matters. We should discuss it more, share best practices and learn from each other.&lt;/p&gt;
 </description>
