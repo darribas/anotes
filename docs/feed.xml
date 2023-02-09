@@ -3,11 +3,54 @@
   <channel>
     <title>Academic notes</title>
     <description>Archive of academic notes</description>
-    <link>http://0.0.0.0:4000/anotes/</link>
-    <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Jul 2022 12:50:23 +0100</pubDate>
-    <lastBuildDate>Thu, 14 Jul 2022 12:50:23 +0100</lastBuildDate>
+    <link>/anotes/</link>
+    <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 Feb 2023 18:02:48 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Feb 2023 18:02:48 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Royal Society's Multifunctional landscapes</title>
+        <description>&lt;p&gt;&lt;label for=&quot;intro&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;intro&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;These are notes from my reading of the executive summary of the
+&lt;a href=&quot;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&quot;&gt;Multifunctional landscapes&lt;/a&gt; report the Royal Society published earlier this
+week. The summary is really succinct and makes all the good points in five recommendations. These are some of my opinionated
+highlights. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Now is a critical time for land use policy globally (e.g., climate change,
+  energy crisis), but particularly in the UK (e.g., Brexit). Science and innovation have several important roles in helping manage landscapes better (the report lists several of them in detail).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Recommendation 1&lt;/strong&gt; - embrace a multifunctional approach that considers multiple
+market &lt;em&gt;and&lt;/em&gt; non-market land-based outputs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recommendation 2&lt;/strong&gt; - the critical role of research and innovation, which needs
+to be oriented to continue increasing the productivity and profitability of
+farming, but also expanded in three critical ways: take a multifunctional perspective (see R.1);
+pay much greater attention to sustainability; and carry out more research on landscape functions
+and how they interact with each other (trade-off’s and synergies).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recommendation 3&lt;/strong&gt; - increase and adapt skills, training and advice for land managers&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recommendation 4&lt;/strong&gt; - “A novel data science-driven approach is needed to develop
+a high-quality common evidence base to underpin land use decisions”. This ons
+hits really close to home, so I’m just going to reproduce it here verbatim:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;&lt;span class=&quot;newthought&quot;&gt;Decision-making&lt;/span&gt;  in multifunctional landscapes will benefit from integration of information about all aspects of landscapes including farm and forestry outputs, biophysical data (such as topography, climate, soils and biodiversity) and ecosystem services, as well as socioeconomic data such as land values, land ownership and livelihoods dependent on land-based-activities. Some of this information is available but is of variable quality, relevance, timeliness and accessibility. A more strategic national approach to land-based information, with clear data standards and protocols and creation of a common evidence platform, would empower decision-makers with a consistent set of science-based inputs from which to negotiate land use decisions. It would also facilitate the incorporation of new data streams made available by technological advances. Consistent and scientifically robust baselines, metrics and systematic monitoring programmes are needed to better understand the state of landscapes and what they are being used for, and to track progress towards meeting policy objectives.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Recommendation 5&lt;/strong&gt; - We need &lt;em&gt;spatially explicit&lt;/em&gt; national land use frameworks
+to judge the compatibility of different policy commitments. These need to be
+based on robust data and analytics, and be transparent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;cite&gt; The Royal Society (2023). &lt;em&gt;Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary&lt;/em&gt;. ISBN: 978-1-78252-633-9. &lt;a href=&quot;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&lt;/code&gt;&lt;/a&gt; &lt;/cite&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Feb 2023 12:00:00 +0000</pubDate>
+        <link>/anotes/articles/23/rsml</link>
+        <guid isPermaLink="true">/anotes/articles/23/rsml</guid>
+        
+        
+      </item>
     
       <item>
         <title>Open by Default talk</title>
@@ -37,8 +80,8 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In academia, we talk a lot about outputs, but very little about process. &lt;em&gt;How&lt;/em&gt; we do research and why different approaches yield different outcomes even if the results are seemingly the same matters. We should discuss it more, share best practices and learn from each other.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Jul 2022 01:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/obd</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/obd</guid>
+        <link>/anotes/articles/22/obd</link>
+        <guid isPermaLink="true">/anotes/articles/22/obd</guid>
         
         
       </item>
@@ -151,8 +194,8 @@ cities. I’m glad I came and I hope it is not the last time.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 30 Jun 2022 01:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/wuf</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/wuf</guid>
+        <link>/anotes/articles/22/wuf</link>
+        <guid isPermaLink="true">/anotes/articles/22/wuf</guid>
         
         
       </item>
@@ -186,8 +229,8 @@ accordingly.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/prof</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/prof</guid>
+        <link>/anotes/articles/22/prof</link>
+        <guid isPermaLink="true">/anotes/articles/22/prof</guid>
         
         
       </item>
@@ -236,8 +279,8 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 </description>
         <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/lu</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/lu</guid>
+        <link>/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">/anotes/articles/22/lu</guid>
         
         
       </item>
@@ -264,8 +307,8 @@ I’m always on the hunt for good books on computers, cities, and data (or anyth
 
 </description>
         <pubDate>Mon, 27 Dec 2021 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/21/bestofbooks</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/bestofbooks</guid>
+        <link>/anotes/articles/21/bestofbooks</link>
+        <guid isPermaLink="true">/anotes/articles/21/bestofbooks</guid>
         
         
       </item>
@@ -298,8 +341,8 @@ all of them, where each step of development follows open principles.&lt;/em&gt; 
 
 </description>
         <pubDate>Fri, 22 Oct 2021 13:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/21/odp</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/odp</guid>
+        <link>/anotes/articles/21/odp</link>
+        <guid isPermaLink="true">/anotes/articles/21/odp</guid>
         
         
       </item>
@@ -327,8 +370,8 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 20 Aug 2021 13:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/21/ipcc</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/ipcc</guid>
+        <link>/anotes/articles/21/ipcc</link>
+        <guid isPermaLink="true">/anotes/articles/21/ipcc</guid>
         
         
       </item>
