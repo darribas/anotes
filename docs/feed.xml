@@ -3,10 +3,10 @@
   <channel>
     <title>Academic notes</title>
     <description>Archive of academic notes</description>
-    <link>http://0.0.0.0:4000/anotes/</link>
-    <atom:link href="http://0.0.0.0:4000/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Jul 2023 11:32:37 +0100</pubDate>
-    <lastBuildDate>Tue, 11 Jul 2023 11:32:37 +0100</lastBuildDate>
+    <link>/anotes/</link>
+    <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Jul 2023 11:54:57 +0100</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2023 11:54:57 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -118,8 +118,11 @@ We need to learn to use appropriate approaches
 and use them appropriately&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The bit that is not mentioned explicitly (although hinted at through
-&lt;em&gt;“textual analysis&lt;/em&gt;”&lt;/p&gt;
+&lt;p&gt;The bit that is not mentioned explicitly are LLMs (although hinted at through
+&lt;em&gt;“textual analysis&lt;/em&gt;”), but much of that slide took me back to the “Future of 
+Urban Analytics” panel we organised at the last AAG, where &lt;a href=&quot;https://www.sethspielman.org/&quot;&gt;Seth Spielman&lt;/a&gt; 
+rounded up his partitipation with the quote “the data is the model, the model 
+is the data”.&lt;/p&gt;
 
 &lt;p&gt;Finally, a point about delineation:&lt;/p&gt;
 
@@ -149,8 +152,8 @@ talks (we do of course in papers, but there the focus is usually much more
 delimitted and less wide ranging than in this case).&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Jul 2023 01:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/23/duranton_notes</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/23/duranton_notes</guid>
+        <link>/anotes/articles/23/duranton_notes</link>
+        <guid isPermaLink="true">/anotes/articles/23/duranton_notes</guid>
         
         
       </item>
@@ -255,8 +258,8 @@ friend to tell a friend!) &lt;/span&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 25 Mar 2023 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/23/glad</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/23/glad</guid>
+        <link>/anotes/articles/23/glad</link>
+        <guid isPermaLink="true">/anotes/articles/23/glad</guid>
         
         
       </item>
@@ -298,8 +301,8 @@ based on robust data and analytics, and be transparent.&lt;/li&gt;
 &lt;p&gt;&lt;cite&gt; The Royal Society (2023). &lt;em&gt;Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary&lt;/em&gt;. ISBN: 978-1-78252-633-9. &lt;a href=&quot;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&lt;/code&gt;&lt;/a&gt; &lt;/cite&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Feb 2023 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/23/rsml</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/23/rsml</guid>
+        <link>/anotes/articles/23/rsml</link>
+        <guid isPermaLink="true">/anotes/articles/23/rsml</guid>
         
         
       </item>
@@ -332,8 +335,8 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In academia, we talk a lot about outputs, but very little about process. &lt;em&gt;How&lt;/em&gt; we do research and why different approaches yield different outcomes even if the results are seemingly the same matters. We should discuss it more, share best practices and learn from each other.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Jul 2022 01:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/obd</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/obd</guid>
+        <link>/anotes/articles/22/obd</link>
+        <guid isPermaLink="true">/anotes/articles/22/obd</guid>
         
         
       </item>
@@ -446,8 +449,8 @@ cities. I’m glad I came and I hope it is not the last time.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 30 Jun 2022 01:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/wuf</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/wuf</guid>
+        <link>/anotes/articles/22/wuf</link>
+        <guid isPermaLink="true">/anotes/articles/22/wuf</guid>
         
         
       </item>
@@ -481,8 +484,8 @@ accordingly.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/prof</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/prof</guid>
+        <link>/anotes/articles/22/prof</link>
+        <guid isPermaLink="true">/anotes/articles/22/prof</guid>
         
         
       </item>
@@ -531,8 +534,8 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 </description>
         <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/22/lu</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/22/lu</guid>
+        <link>/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">/anotes/articles/22/lu</guid>
         
         
       </item>
@@ -559,8 +562,8 @@ I’m always on the hunt for good books on computers, cities, and data (or anyth
 
 </description>
         <pubDate>Mon, 27 Dec 2021 12:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/21/bestofbooks</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/bestofbooks</guid>
+        <link>/anotes/articles/21/bestofbooks</link>
+        <guid isPermaLink="true">/anotes/articles/21/bestofbooks</guid>
         
         
       </item>
@@ -593,8 +596,8 @@ all of them, where each step of development follows open principles.&lt;/em&gt; 
 
 </description>
         <pubDate>Fri, 22 Oct 2021 13:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/21/odp</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/odp</guid>
+        <link>/anotes/articles/21/odp</link>
+        <guid isPermaLink="true">/anotes/articles/21/odp</guid>
         
         
       </item>
@@ -622,8 +625,8 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 20 Aug 2021 13:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/anotes/articles/21/ipcc</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/anotes/articles/21/ipcc</guid>
+        <link>/anotes/articles/21/ipcc</link>
+        <guid isPermaLink="true">/anotes/articles/21/ipcc</guid>
         
         
       </item>
