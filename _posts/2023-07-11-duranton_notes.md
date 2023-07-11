@@ -101,8 +101,11 @@ data (here) and extract patterns out of them.
 We need to learn to use appropriate approaches
 and use them appropriately*
 
-The bit that is not mentioned explicitly (although hinted at through
-*"textual analysis*"
+The bit that is not mentioned explicitly are LLMs (although hinted at through
+*"textual analysis*"), but much of that slide took me back to the "Future of 
+Urban Analytics" panel we organised at the last AAG, where [Seth Spielman](https://www.sethspielman.org/) 
+rounded up his partitipation with the quote "the data is the model, the model 
+is the data".
 
 Finally, a point about delineation:
 
