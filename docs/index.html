@@ -95,6 +95,75 @@
           
         <li class="listing">
           <hr class="slender">
+          <a href="/anotes/articles/24/gc_report"><h3 class="contrast">Report on AI and Land Use</h3></a>
+          <br><span class="smaller">November 14, 2024</span>  <br/>
+          <!--
+          <div><p><em><strong>Geospatial AI for Land Use, by The Alan Turing Institute</strong></em>. Independent Report
+from The Alan Turing Institute - <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p><em><strong>How geospatial AI can help inform our land use choices</strong></em>. Blog post from the Geospatial Commission on the report - <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p>TODAY, the <a href="https://www.gov.uk/government/organisations/geospatial-commission">Geospatial Commission</a> released the <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute">report</a> we<label for="We" class="margin-toggle sidenote-number"></label><input type="checkbox" id="We" class="margin-toggle" /><span class="sidenote">The team on this project spanned folks at the Commission and Urban Analytics@Turing. At Turing, Barbara Metzler and Stuart Lynn did most of the heavy lifting, and I was the lucky one to “see early demos and present it around”. </span> prepared for a project we have been working over the last year in collaboration with them. The work builds on our earlier contribution to the National Land Data Programme<label for="NLDP" class="margin-toggle sidenote-number"></label><input type="checkbox" id="NLDP" class="margin-toggle" /><span class="sidenote">Geospatial Commission (2023). <em>Finding common ground: Integrating data, science and innovation for better use of land</em> - <a href="https://www.gov.uk/government/publications/finding-common-ground-integrating-data-science-and-innovation-for-better-use-of-land">URL</a> </span> last year, and the document puts in writing much of what we <a href="https://www.gov.uk/government/news/geospatial-commission-funded-tool-demonstrates-potential-for-ai-to-transform-decisions-about-land-use">presented to the minister for AI and intellectual property</a> last March. There is also an accompanying <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/">blog post</a> Mehul and his team at the Commission put out.</p>
+
+<p>Most of the report is a summary of what we learned in two specific
+exercises and a series of engagement events. I’ll give you the two-sentence version of each here but, if you are interested, you really should grab the report as it covers them much more comprehensively.
+In one, we took our initial <a href="https://urban-analytics-technology-platform.github.io/demoland-web/tyne_and_wear_hex/#10.06/55.1137/-1.5308">DemoLand app</a>, a tool that helps users explore different land use scenarios and their effect on areas such as air quality or house prices, and embedded a chat interface powered by a large language model. The original tool provided access to a lot of data and modelling that would be hard to access for non-technical audiences otherwise, but it still required the user to “know their way around”. With the new chat-based interface, exploring the results is a much more conversational experience that can reach larger even audiences.
+In the second exercise, we digged into the guts of the models that power land
+use applications such as those in DemoLand. Typically, many of these require
+data that is collected and released more slowly than ideally required for
+decision making (e.g., Census or building cadasters). We explored
+complementing, or even replacing, these by widely available satellite imagery.
+Satellite data is definitely not a new thing, we’ve had metal boxes orbitting
+the Earth since at least the 1950s, but there are a few <em>recent</em> things that
+make them more appealing. The revolution in computer vision (and what is now
+also termed AI) we have seen in the last 15 years has changed what we are able
+to do with imagery, even that of limited spatial resolution. In this exercise,
+we explore foundation models for vision (a bit like the GPT in ChatGPT but for
+satellite data) to see how far we could push them. The result is a series of
+what I consider extremely exciting results but others might see as largely dry
+performance scores tables. You can get a summary of those in the report.
+In addition to these two exercises, we also ran consultation events (at <a href="https://www.turing.ac.uk/events/ai-uk-2024">AI
+UK’24</a> and online) with experts to
+get a broader view on the potential, challenges and immediate opportunities of
+geospatial AI for land use. I could summarise those, but I won’t do a better
+job than the report, so head over to its “Section 3” for that.</p>
+
+<p>What will probably (I hope!) catch most attention is the “Recommendations”
+section. Here is where we brought together everything we learnt in these
+exercises to propose concrete steps forward. In particular, we mention five:</p>
+
+<p>1/ Identify additional areas of opportunity for satellite data to build the value case for geospatial AI.</p>
+
+<p>2/ Develop a Geospatial AI Toolkit for LLMs.</p>
+
+<p>3/ Expand the conversation on national foundation models to land use and geospatial.</p>
+
+<p>4/ Improve access to key computational and data resources.</p>
+
+<p>5/ Promote knowledge sharing and cross-discipline collaboratio.</p>
+
+<p>Some are self-explanatory and I suspect few will disagree with them (who is
+against more knowledge sharing?). Others bring to the front
+discussions that we think deserve more attention than they’re currently
+receiving. LLMs, for example, are not very good at geography (there is a
+reason why the second L is not a G!). Before we jump in and take them
+off-the-self, we think there is work to do to develop the “Geography
+curriculum” we’d like these models to know when they help folks on
+spatial domains. And others seem more obvious than they actually are.
+Suggesting in 2024 that satellite data be used for land use change may cause
+unreparable eye-rolls among land use experts who’ve been doing this in an
+academic context for several decades. Yet there is still very little of it
+that has made it into “production” at scale, particularly in non environmental
+and physical domains such as cities and society<label for="Imago" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Imago" class="margin-toggle" /><span class="sidenote">This is one
+of the core ideas that made <a href="https://www.sdruk.ukri.org/2024/10/17/22-million-for-new-smart-data-services/">Imago</a> a winning proposition, so watch this space. </span>. So think twice before sending your eyes upwards.</p>
+
+<p>Above all, and ironically given that it summarises past work, we hope this becomes a conversation starter. There is so much exciting stuff that is happening in the world of AI that could have tremendous implications for land use modelling and management. <em>What</em> exactly and, specially, <em>how</em> are debates we have just begun and are far from done. But we think they are worth having <em>and</em> actioning on. To work.</p>
+</div> 
+          -->
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
           <a href="/anotes/articles/24/rgs_award"><h3 class="contrast">RGS Award</h3></a>
           <br><span class="smaller">May 7, 2024</span>  <br/>
           <!--
@@ -405,7 +474,7 @@ to judge the compatibility of different policy commitments. These need to be
 based on robust data and analytics, and be transparent.</li>
 </ul>
 
-<p><cite> The Royal Society (2023). <em>Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary</em>. ISBN: 978-1-78252-633-9. <a href="https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/"><code class="highlighter-rouge">https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/</code></a> </cite></p>
+<p><cite> The Royal Society (2023). <em>Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary</em>. ISBN: 978-1-78252-633-9. <a href="https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/"><code class="language-plaintext highlighter-rouge">https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/</code></a> </cite></p>
 </div> 
           -->
         </li>
@@ -418,7 +487,7 @@ based on robust data and analytics, and be transparent.</li>
           <div><p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1547539954691182596">Twitter
 thread</a> </span></p>
 
-<p>I’m super glad the lovely <a href="https://twitter.com/RSSMerseyside"><code class="highlighter-rouge">@RSSMerseyside</code></a>/<a href="https://twitter.com/hipyliv"><code class="highlighter-rouge">@hipyliv</code></a> folks put together the “Using open data sources” event and made the recording available:</p>
+<p>I’m super glad the lovely <a href="https://twitter.com/RSSMerseyside"><code class="language-plaintext highlighter-rouge">@RSSMerseyside</code></a>/<a href="https://twitter.com/hipyliv"><code class="language-plaintext highlighter-rouge">@hipyliv</code></a> folks put together the “Using open data sources” event and made the recording available:</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u3hYWLYApoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -551,40 +620,6 @@ the most part. Stepping out of this pattern is challenging but important.</p>
 <p>In summary, WUF 11 has been been a blast. I’ve learned a lot, met some very
 cool people, and left with a renewed sense of awe and urgency about working on
 cities. I’m glad I came and I hope it is not the last time.</p>
-
-</div> 
-          -->
-        </li>
-          
-        <li class="listing">
-          <hr class="slender">
-          <a href="/anotes/articles/22/prof"><h3 class="contrast">Professor</h3></a>
-          <br><span class="smaller">March 15, 2022</span>  <br/>
-          <!--
-          <div><p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1503648739868790787">Twitter
-thread</a> </span></p>
-
-<p>Last month I was promoted to Professor at Liverpool. To say I’m
-humbled is a bit of an understatement… It’s still a blur and suspect
-it’ll take a while to sink in. So, while that percolates, here’s
-a thought crystal clear in my mind: they call it “chair”, but professor
-really should be “bench”.
-If the “chair” is partly reward for the achievements of a career, it
-really would be best represented as a bench that can accommodate all
-the folks who’ve make it possible. And there’re always many of them!
-Part of it is the proverbial “giant shoulder-standing”, but there is
-also the more down-to-earth mentorship, collaboration, peer-support,
-and general “ass saving” academic networks provide when everything
-else falls.</p>
-
-<p>In my case, I cannot think of a single achievement I’m truly proud of
-for which I’m solely responsible. It is impossible to understand my
-career without the context in which it’s happened, and that has always
-been one or another community or colective. So, while I truly am
-chuffed about the sound of “prof Dani”, let’s not forget
-how these successes are really made and the mechanisms and social
-infrastructure that makes them possible. And let’s nurture them
-accordingly.</p>
 
 </div> 
           -->

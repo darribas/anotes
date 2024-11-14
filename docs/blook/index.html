@@ -66,6 +66,74 @@
           
         <li class="listing">
           <hr class="slender" />
+          <a href="/anotes/articles/24/gc_report">Report on AI and Land Use</a>
+          <!--
+          <div><p><em><strong>Geospatial AI for Land Use, by The Alan Turing Institute</strong></em>. Independent Report
+from The Alan Turing Institute - <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p><em><strong>How geospatial AI can help inform our land use choices</strong></em>. Blog post from the Geospatial Commission on the report - <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p>TODAY, the <a href="https://www.gov.uk/government/organisations/geospatial-commission">Geospatial Commission</a> released the <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute">report</a> we<label for="We" class="margin-toggle sidenote-number"></label><input type="checkbox" id="We" class="margin-toggle" /><span class="sidenote">The team on this project spanned folks at the Commission and Urban Analytics@Turing. At Turing, Barbara Metzler and Stuart Lynn did most of the heavy lifting, and I was the lucky one to “see early demos and present it around”. </span> prepared for a project we have been working over the last year in collaboration with them. The work builds on our earlier contribution to the National Land Data Programme<label for="NLDP" class="margin-toggle sidenote-number"></label><input type="checkbox" id="NLDP" class="margin-toggle" /><span class="sidenote">Geospatial Commission (2023). <em>Finding common ground: Integrating data, science and innovation for better use of land</em> - <a href="https://www.gov.uk/government/publications/finding-common-ground-integrating-data-science-and-innovation-for-better-use-of-land">URL</a> </span> last year, and the document puts in writing much of what we <a href="https://www.gov.uk/government/news/geospatial-commission-funded-tool-demonstrates-potential-for-ai-to-transform-decisions-about-land-use">presented to the minister for AI and intellectual property</a> last March. There is also an accompanying <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/">blog post</a> Mehul and his team at the Commission put out.</p>
+
+<p>Most of the report is a summary of what we learned in two specific
+exercises and a series of engagement events. I’ll give you the two-sentence version of each here but, if you are interested, you really should grab the report as it covers them much more comprehensively.
+In one, we took our initial <a href="https://urban-analytics-technology-platform.github.io/demoland-web/tyne_and_wear_hex/#10.06/55.1137/-1.5308">DemoLand app</a>, a tool that helps users explore different land use scenarios and their effect on areas such as air quality or house prices, and embedded a chat interface powered by a large language model. The original tool provided access to a lot of data and modelling that would be hard to access for non-technical audiences otherwise, but it still required the user to “know their way around”. With the new chat-based interface, exploring the results is a much more conversational experience that can reach larger even audiences.
+In the second exercise, we digged into the guts of the models that power land
+use applications such as those in DemoLand. Typically, many of these require
+data that is collected and released more slowly than ideally required for
+decision making (e.g., Census or building cadasters). We explored
+complementing, or even replacing, these by widely available satellite imagery.
+Satellite data is definitely not a new thing, we’ve had metal boxes orbitting
+the Earth since at least the 1950s, but there are a few <em>recent</em> things that
+make them more appealing. The revolution in computer vision (and what is now
+also termed AI) we have seen in the last 15 years has changed what we are able
+to do with imagery, even that of limited spatial resolution. In this exercise,
+we explore foundation models for vision (a bit like the GPT in ChatGPT but for
+satellite data) to see how far we could push them. The result is a series of
+what I consider extremely exciting results but others might see as largely dry
+performance scores tables. You can get a summary of those in the report.
+In addition to these two exercises, we also ran consultation events (at <a href="https://www.turing.ac.uk/events/ai-uk-2024">AI
+UK’24</a> and online) with experts to
+get a broader view on the potential, challenges and immediate opportunities of
+geospatial AI for land use. I could summarise those, but I won’t do a better
+job than the report, so head over to its “Section 3” for that.</p>
+
+<p>What will probably (I hope!) catch most attention is the “Recommendations”
+section. Here is where we brought together everything we learnt in these
+exercises to propose concrete steps forward. In particular, we mention five:</p>
+
+<p>1/ Identify additional areas of opportunity for satellite data to build the value case for geospatial AI.</p>
+
+<p>2/ Develop a Geospatial AI Toolkit for LLMs.</p>
+
+<p>3/ Expand the conversation on national foundation models to land use and geospatial.</p>
+
+<p>4/ Improve access to key computational and data resources.</p>
+
+<p>5/ Promote knowledge sharing and cross-discipline collaboratio.</p>
+
+<p>Some are self-explanatory and I suspect few will disagree with them (who is
+against more knowledge sharing?). Others bring to the front
+discussions that we think deserve more attention than they’re currently
+receiving. LLMs, for example, are not very good at geography (there is a
+reason why the second L is not a G!). Before we jump in and take them
+off-the-self, we think there is work to do to develop the “Geography
+curriculum” we’d like these models to know when they help folks on
+spatial domains. And others seem more obvious than they actually are.
+Suggesting in 2024 that satellite data be used for land use change may cause
+unreparable eye-rolls among land use experts who’ve been doing this in an
+academic context for several decades. Yet there is still very little of it
+that has made it into “production” at scale, particularly in non environmental
+and physical domains such as cities and society<label for="Imago" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Imago" class="margin-toggle" /><span class="sidenote">This is one
+of the core ideas that made <a href="https://www.sdruk.ukri.org/2024/10/17/22-million-for-new-smart-data-services/">Imago</a> a winning proposition, so watch this space. </span>. So think twice before sending your eyes upwards.</p>
+
+<p>Above all, and ironically given that it summarises past work, we hope this becomes a conversation starter. There is so much exciting stuff that is happening in the world of AI that could have tremendous implications for land use modelling and management. <em>What</em> exactly and, specially, <em>how</em> are debates we have just begun and are far from done. But we think they are worth having <em>and</em> actioning on. To work.</p>
+</div> 
+          -->
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
           <a href="/anotes/articles/24/rgs_award">RGS Award</a>
           <!--
           <div><p>Today, the RGS <a href="https://www.rgs.org/about-us/our-work/medals-awards-and-prizes/society-medals-and-awards/2024-awards">announced</a> that I received the Taylor &amp; Francis Award for <em>“excellence in the practice and promotion of teaching in higher education”</em>. In their social media, the expanded a bit:</p>
@@ -372,7 +440,7 @@ to judge the compatibility of different policy commitments. These need to be
 based on robust data and analytics, and be transparent.</li>
 </ul>
 
-<p><cite> The Royal Society (2023). <em>Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary</em>. ISBN: 978-1-78252-633-9. <a href="https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/"><code class="highlighter-rouge">https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/</code></a> </cite></p>
+<p><cite> The Royal Society (2023). <em>Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary</em>. ISBN: 978-1-78252-633-9. <a href="https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/"><code class="language-plaintext highlighter-rouge">https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/</code></a> </cite></p>
 </div> 
           -->
         </li>
@@ -384,7 +452,7 @@ based on robust data and analytics, and be transparent.</li>
           <div><p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1547539954691182596">Twitter
 thread</a> </span></p>
 
-<p>I’m super glad the lovely <a href="https://twitter.com/RSSMerseyside"><code class="highlighter-rouge">@RSSMerseyside</code></a>/<a href="https://twitter.com/hipyliv"><code class="highlighter-rouge">@hipyliv</code></a> folks put together the “Using open data sources” event and made the recording available:</p>
+<p>I’m super glad the lovely <a href="https://twitter.com/RSSMerseyside"><code class="language-plaintext highlighter-rouge">@RSSMerseyside</code></a>/<a href="https://twitter.com/hipyliv"><code class="language-plaintext highlighter-rouge">@hipyliv</code></a> folks put together the “Using open data sources” event and made the recording available:</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u3hYWLYApoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -561,11 +629,11 @@ accordingly.</p>
           <div><p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1489162746046394369">Twitter
 thread</a> </span></p>
 
-<p>Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full <code class="highlighter-rouge">#levellingupwhitepaper</code> is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!</p>
+<p>Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full <code class="language-plaintext highlighter-rouge">#levellingupwhitepaper</code> is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!</p>
 
 <figure class="fullwidth"><img src="https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&amp;name=medium" /><figcaption>The Figure&#8230;</figcaption></figure>
 
-<p>The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic <code class="highlighter-rouge">#DataScience</code> and spatial analysis courses alike (like mine! <a href="https://darribas.org/gds_course/">https://darribas.org/gds_course/</a>. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &lt;10min:</p>
+<p>The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic <code class="language-plaintext highlighter-rouge">#DataScience</code> and spatial analysis courses alike (like mine! <a href="https://darribas.org/gds_course/">https://darribas.org/gds_course/</a>. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &lt;10min:</p>
 
 <figure><img src="https://pbs.twimg.com/media/FKqG2QmX0AAz5Bk?format=jpg&amp;name=medium" /><figcaption class="maincolumn-figure">Me, my living room, and spatial autocorrelation (check out the video <a href="https://darribas.org/gds_course/content/bF/concepts_F.html#spatial-autocorrelation">here</a>)</figcaption></figure>
 
@@ -581,7 +649,7 @@ thread</a> </span></p>
 <a href="http://mybinder.org/repo/darribas/int_sp_auto">here</a>.
 <img src="https://pbs.twimg.com/media/FKqH7yJXEAEyjPG?format=jpg&amp;name=medium" alt="" />
 Thanks to the
-voila team &amp; <code class="highlighter-rouge">@mybinderteam</code> for the awesome infrastructure powering
+voila team &amp; <code class="language-plaintext highlighter-rouge">@mybinderteam</code> for the awesome infrastructure powering
 this! </span> I
 wrote to help students grasp the intuition behind the statistic, and
 you too can play with it! For a 14 minute version of what is Moran’s I and why you should love it, welcome back to my living room!</p>
@@ -596,7 +664,7 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 <p>So, to wrap up, although there are always ways to improve, I think it is awesome that policy makers are using these tools to inform their views on the world the decide on. This will be a very good example for prospective geography students on why they should take my numbers course even though what they really want is to “make a difference in politics”! Could it be improved the way these statistics are used in policy? Of course, but that is as much a job of policy makers as it is for us academics and data scientists “in the know”. The solution is not to remove the figure, but to have more of them, and to generate discussion around it so, over time, we all collectively get better at using data and stats for big policy “things”.</p>
 
-<p>And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website<label for="Website" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Website" class="margin-toggle" /><span class="sidenote"><a href="https://darribas.org/gds_course"><code class="highlighter-rouge">https://darribas.org/gds_course</code></a> </span> or on the YouTube playlist<label for="Playlist" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Playlist" class="margin-toggle" /><span class="sidenote"><a href="https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU">YouTube Playlist</a> </span>! See you on the next big policy paper that uses spatial stats!</p>
+<p>And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website<label for="Website" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Website" class="margin-toggle" /><span class="sidenote"><a href="https://darribas.org/gds_course"><code class="language-plaintext highlighter-rouge">https://darribas.org/gds_course</code></a> </span> or on the YouTube playlist<label for="Playlist" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Playlist" class="margin-toggle" /><span class="sidenote"><a href="https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU">YouTube Playlist</a> </span>! See you on the next big policy paper that uses spatial stats!</p>
 
 </div> 
           -->
@@ -681,7 +749,7 @@ thread</a> </span></p>
 
 <p>This report is focused on the physical fundamentals, and I’d expect to see more (and cheerier) on cities in the subsequent ones focused on impacts and adaptation. My view on cities and climate change is that they may generate localised effects but, paraphrasing the saying, “try the alternative”. That is, lodging the same amount of people and interactions in any other “form factor”. At any rate, cities are not all of the same kind, and we need more brain power directed at identifying how and making cities more climate change “aware”.</p>
 
-<p>That’s all for now. My very strong recommendation is you pick up the “Summary for Policymakers”<label for="report-url" class="margin-toggle sidenote-number"></label><input type="checkbox" id="report-url" class="margin-toggle" /><span class="sidenote"><a href="https://www.ipcc.ch/report/ar6/wg1/"><code class="highlighter-rouge">https://www.ipcc.ch/report/ar6/wg1/</code></a> </span> and give it a go. It’s not a “page turner” and it’s definitely not the Schitt’s Creek of reports. But it’s worth every second of your time.</p>
+<p>That’s all for now. My very strong recommendation is you pick up the “Summary for Policymakers”<label for="report-url" class="margin-toggle sidenote-number"></label><input type="checkbox" id="report-url" class="margin-toggle" /><span class="sidenote"><a href="https://www.ipcc.ch/report/ar6/wg1/"><code class="language-plaintext highlighter-rouge">https://www.ipcc.ch/report/ar6/wg1/</code></a> </span> and give it a go. It’s not a “page turner” and it’s definitely not the Schitt’s Creek of reports. But it’s worth every second of your time.</p>
 
 </div> 
           -->
@@ -692,6 +760,73 @@ thread</a> </span></p>
 <hr />
 
 <h2 id="content" class="content-listing-header sans"> Content </h2>
+
+<li class="listing">
+  <hr class="slender" />
+  <h3 class="contrast">Report on AI and Land Use</h3>
+  <br /><span class="smaller">November 14, 2024</span>  <br />
+  <div><p><em><strong>Geospatial AI for Land Use, by The Alan Turing Institute</strong></em>. Independent Report
+from The Alan Turing Institute - <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p><em><strong>How geospatial AI can help inform our land use choices</strong></em>. Blog post from the Geospatial Commission on the report - <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p>TODAY, the <a href="https://www.gov.uk/government/organisations/geospatial-commission">Geospatial Commission</a> released the <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute">report</a> we<label for="We" class="margin-toggle sidenote-number"></label><input type="checkbox" id="We" class="margin-toggle" /><span class="sidenote">The team on this project spanned folks at the Commission and Urban Analytics@Turing. At Turing, Barbara Metzler and Stuart Lynn did most of the heavy lifting, and I was the lucky one to “see early demos and present it around”. </span> prepared for a project we have been working over the last year in collaboration with them. The work builds on our earlier contribution to the National Land Data Programme<label for="NLDP" class="margin-toggle sidenote-number"></label><input type="checkbox" id="NLDP" class="margin-toggle" /><span class="sidenote">Geospatial Commission (2023). <em>Finding common ground: Integrating data, science and innovation for better use of land</em> - <a href="https://www.gov.uk/government/publications/finding-common-ground-integrating-data-science-and-innovation-for-better-use-of-land">URL</a> </span> last year, and the document puts in writing much of what we <a href="https://www.gov.uk/government/news/geospatial-commission-funded-tool-demonstrates-potential-for-ai-to-transform-decisions-about-land-use">presented to the minister for AI and intellectual property</a> last March. There is also an accompanying <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/">blog post</a> Mehul and his team at the Commission put out.</p>
+
+<p>Most of the report is a summary of what we learned in two specific
+exercises and a series of engagement events. I’ll give you the two-sentence version of each here but, if you are interested, you really should grab the report as it covers them much more comprehensively.
+In one, we took our initial <a href="https://urban-analytics-technology-platform.github.io/demoland-web/tyne_and_wear_hex/#10.06/55.1137/-1.5308">DemoLand app</a>, a tool that helps users explore different land use scenarios and their effect on areas such as air quality or house prices, and embedded a chat interface powered by a large language model. The original tool provided access to a lot of data and modelling that would be hard to access for non-technical audiences otherwise, but it still required the user to “know their way around”. With the new chat-based interface, exploring the results is a much more conversational experience that can reach larger even audiences.
+In the second exercise, we digged into the guts of the models that power land
+use applications such as those in DemoLand. Typically, many of these require
+data that is collected and released more slowly than ideally required for
+decision making (e.g., Census or building cadasters). We explored
+complementing, or even replacing, these by widely available satellite imagery.
+Satellite data is definitely not a new thing, we’ve had metal boxes orbitting
+the Earth since at least the 1950s, but there are a few <em>recent</em> things that
+make them more appealing. The revolution in computer vision (and what is now
+also termed AI) we have seen in the last 15 years has changed what we are able
+to do with imagery, even that of limited spatial resolution. In this exercise,
+we explore foundation models for vision (a bit like the GPT in ChatGPT but for
+satellite data) to see how far we could push them. The result is a series of
+what I consider extremely exciting results but others might see as largely dry
+performance scores tables. You can get a summary of those in the report.
+In addition to these two exercises, we also ran consultation events (at <a href="https://www.turing.ac.uk/events/ai-uk-2024">AI
+UK’24</a> and online) with experts to
+get a broader view on the potential, challenges and immediate opportunities of
+geospatial AI for land use. I could summarise those, but I won’t do a better
+job than the report, so head over to its “Section 3” for that.</p>
+
+<p>What will probably (I hope!) catch most attention is the “Recommendations”
+section. Here is where we brought together everything we learnt in these
+exercises to propose concrete steps forward. In particular, we mention five:</p>
+
+<p>1/ Identify additional areas of opportunity for satellite data to build the value case for geospatial AI.</p>
+
+<p>2/ Develop a Geospatial AI Toolkit for LLMs.</p>
+
+<p>3/ Expand the conversation on national foundation models to land use and geospatial.</p>
+
+<p>4/ Improve access to key computational and data resources.</p>
+
+<p>5/ Promote knowledge sharing and cross-discipline collaboratio.</p>
+
+<p>Some are self-explanatory and I suspect few will disagree with them (who is
+against more knowledge sharing?). Others bring to the front
+discussions that we think deserve more attention than they’re currently
+receiving. LLMs, for example, are not very good at geography (there is a
+reason why the second L is not a G!). Before we jump in and take them
+off-the-self, we think there is work to do to develop the “Geography
+curriculum” we’d like these models to know when they help folks on
+spatial domains. And others seem more obvious than they actually are.
+Suggesting in 2024 that satellite data be used for land use change may cause
+unreparable eye-rolls among land use experts who’ve been doing this in an
+academic context for several decades. Yet there is still very little of it
+that has made it into “production” at scale, particularly in non environmental
+and physical domains such as cities and society<label for="Imago" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Imago" class="margin-toggle" /><span class="sidenote">This is one
+of the core ideas that made <a href="https://www.sdruk.ukri.org/2024/10/17/22-million-for-new-smart-data-services/">Imago</a> a winning proposition, so watch this space. </span>. So think twice before sending your eyes upwards.</p>
+
+<p>Above all, and ironically given that it summarises past work, we hope this becomes a conversation starter. There is so much exciting stuff that is happening in the world of AI that could have tremendous implications for land use modelling and management. <em>What</em> exactly and, specially, <em>how</em> are debates we have just begun and are far from done. But we think they are worth having <em>and</em> actioning on. To work.</p>
+</div> 
+</li>
 
 <li class="listing">
   <hr class="slender" />
@@ -998,7 +1133,7 @@ to judge the compatibility of different policy commitments. These need to be
 based on robust data and analytics, and be transparent.</li>
 </ul>
 
-<p><cite> The Royal Society (2023). <em>Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary</em>. ISBN: 978-1-78252-633-9. <a href="https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/"><code class="highlighter-rouge">https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/</code></a> </cite></p>
+<p><cite> The Royal Society (2023). <em>Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary</em>. ISBN: 978-1-78252-633-9. <a href="https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/"><code class="language-plaintext highlighter-rouge">https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/</code></a> </cite></p>
 </div> 
 </li>
 
@@ -1009,7 +1144,7 @@ based on robust data and analytics, and be transparent.</li>
   <div><p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1547539954691182596">Twitter
 thread</a> </span></p>
 
-<p>I’m super glad the lovely <a href="https://twitter.com/RSSMerseyside"><code class="highlighter-rouge">@RSSMerseyside</code></a>/<a href="https://twitter.com/hipyliv"><code class="highlighter-rouge">@hipyliv</code></a> folks put together the “Using open data sources” event and made the recording available:</p>
+<p>I’m super glad the lovely <a href="https://twitter.com/RSSMerseyside"><code class="language-plaintext highlighter-rouge">@RSSMerseyside</code></a>/<a href="https://twitter.com/hipyliv"><code class="language-plaintext highlighter-rouge">@hipyliv</code></a> folks put together the “Using open data sources” event and made the recording available:</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u3hYWLYApoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -1183,11 +1318,11 @@ accordingly.</p>
   <div><p><label for="twitter-thread" class="margin-toggle"> ⊕</label><input type="checkbox" id="twitter-thread" class="margin-toggle" /><span class="marginnote">This text was originally posted as a <a href="https://twitter.com/darribas/status/1489162746046394369">Twitter
 thread</a> </span></p>
 
-<p>Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full <code class="highlighter-rouge">#levellingupwhitepaper</code> is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!</p>
+<p>Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full <code class="language-plaintext highlighter-rouge">#levellingupwhitepaper</code> is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!</p>
 
 <figure class="fullwidth"><img src="https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&amp;name=medium" /><figcaption>The Figure&#8230;</figcaption></figure>
 
-<p>The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic <code class="highlighter-rouge">#DataScience</code> and spatial analysis courses alike (like mine! <a href="https://darribas.org/gds_course/">https://darribas.org/gds_course/</a>. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &lt;10min:</p>
+<p>The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic <code class="language-plaintext highlighter-rouge">#DataScience</code> and spatial analysis courses alike (like mine! <a href="https://darribas.org/gds_course/">https://darribas.org/gds_course/</a>. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &lt;10min:</p>
 
 <figure><img src="https://pbs.twimg.com/media/FKqG2QmX0AAz5Bk?format=jpg&amp;name=medium" /><figcaption class="maincolumn-figure">Me, my living room, and spatial autocorrelation (check out the video <a href="https://darribas.org/gds_course/content/bF/concepts_F.html#spatial-autocorrelation">here</a>)</figcaption></figure>
 
@@ -1203,7 +1338,7 @@ thread</a> </span></p>
 <a href="http://mybinder.org/repo/darribas/int_sp_auto">here</a>.
 <img src="https://pbs.twimg.com/media/FKqH7yJXEAEyjPG?format=jpg&amp;name=medium" alt="" />
 Thanks to the
-voila team &amp; <code class="highlighter-rouge">@mybinderteam</code> for the awesome infrastructure powering
+voila team &amp; <code class="language-plaintext highlighter-rouge">@mybinderteam</code> for the awesome infrastructure powering
 this! </span> I
 wrote to help students grasp the intuition behind the statistic, and
 you too can play with it! For a 14 minute version of what is Moran’s I and why you should love it, welcome back to my living room!</p>
@@ -1218,7 +1353,7 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 <p>So, to wrap up, although there are always ways to improve, I think it is awesome that policy makers are using these tools to inform their views on the world the decide on. This will be a very good example for prospective geography students on why they should take my numbers course even though what they really want is to “make a difference in politics”! Could it be improved the way these statistics are used in policy? Of course, but that is as much a job of policy makers as it is for us academics and data scientists “in the know”. The solution is not to remove the figure, but to have more of them, and to generate discussion around it so, over time, we all collectively get better at using data and stats for big policy “things”.</p>
 
-<p>And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website<label for="Website" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Website" class="margin-toggle" /><span class="sidenote"><a href="https://darribas.org/gds_course"><code class="highlighter-rouge">https://darribas.org/gds_course</code></a> </span> or on the YouTube playlist<label for="Playlist" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Playlist" class="margin-toggle" /><span class="sidenote"><a href="https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU">YouTube Playlist</a> </span>! See you on the next big policy paper that uses spatial stats!</p>
+<p>And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website<label for="Website" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Website" class="margin-toggle" /><span class="sidenote"><a href="https://darribas.org/gds_course"><code class="language-plaintext highlighter-rouge">https://darribas.org/gds_course</code></a> </span> or on the YouTube playlist<label for="Playlist" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Playlist" class="margin-toggle" /><span class="sidenote"><a href="https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU">YouTube Playlist</a> </span>! See you on the next big policy paper that uses spatial stats!</p>
 
 </div> 
 </li>
@@ -1300,7 +1435,7 @@ thread</a> </span></p>
 
 <p>This report is focused on the physical fundamentals, and I’d expect to see more (and cheerier) on cities in the subsequent ones focused on impacts and adaptation. My view on cities and climate change is that they may generate localised effects but, paraphrasing the saying, “try the alternative”. That is, lodging the same amount of people and interactions in any other “form factor”. At any rate, cities are not all of the same kind, and we need more brain power directed at identifying how and making cities more climate change “aware”.</p>
 
-<p>That’s all for now. My very strong recommendation is you pick up the “Summary for Policymakers”<label for="report-url" class="margin-toggle sidenote-number"></label><input type="checkbox" id="report-url" class="margin-toggle" /><span class="sidenote"><a href="https://www.ipcc.ch/report/ar6/wg1/"><code class="highlighter-rouge">https://www.ipcc.ch/report/ar6/wg1/</code></a> </span> and give it a go. It’s not a “page turner” and it’s definitely not the Schitt’s Creek of reports. But it’s worth every second of your time.</p>
+<p>That’s all for now. My very strong recommendation is you pick up the “Summary for Policymakers”<label for="report-url" class="margin-toggle sidenote-number"></label><input type="checkbox" id="report-url" class="margin-toggle" /><span class="sidenote"><a href="https://www.ipcc.ch/report/ar6/wg1/"><code class="language-plaintext highlighter-rouge">https://www.ipcc.ch/report/ar6/wg1/</code></a> </span> and give it a go. It’s not a “page turner” and it’s definitely not the Schitt’s Creek of reports. But it’s worth every second of your time.</p>
 
 </div> 
 </li>

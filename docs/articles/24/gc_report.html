@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Report on AI and Land Use</title>
+  <meta name="description" content="Geospatial AI for Land Use, by The Alan Turing Institute. Independent Reportfrom The Alan Turing Institute - URLHow geospatial AI can help inform our land us...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/anotes/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/anotes/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/anotes/articles/24/gc_report">
+
+  <link rel="alternate" type="application/rss+xml" title="Academic notes" href="/anotes/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+            <!--- Logo / Badge
+	<a href="/anotes/"><img class="badge" src="/anotes/assets/img/cropped-allende.jpg" alt="CH"></a>
+    -->
+		    
+    <a href="/anotes/"> NOTES </a>
+		    
+	
+		
+  	
+		
+  	
+		
+  	
+		
+		    
+		      <a href="/anotes/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/anotes/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Report on AI and Land Use</h1>
+<p class="subtitle">November 14, 2024</p>
+
+<p><em><strong>Geospatial AI for Land Use, by The Alan Turing Institute</strong></em>. Independent Report
+from The Alan Turing Institute - <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p><em><strong>How geospatial AI can help inform our land use choices</strong></em>. Blog post from the Geospatial Commission on the report - <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/"><code class="language-plaintext highlighter-rouge">URL</code></a></p>
+
+<p>TODAY, the <a href="https://www.gov.uk/government/organisations/geospatial-commission">Geospatial Commission</a> released the <a href="https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute">report</a> we<label for="We" class="margin-toggle sidenote-number"></label><input type="checkbox" id="We" class="margin-toggle" /><span class="sidenote">The team on this project spanned folks at the Commission and Urban Analytics@Turing. At Turing, Barbara Metzler and Stuart Lynn did most of the heavy lifting, and I was the lucky one to “see early demos and present it around”. </span> prepared for a project we have been working over the last year in collaboration with them. The work builds on our earlier contribution to the National Land Data Programme<label for="NLDP" class="margin-toggle sidenote-number"></label><input type="checkbox" id="NLDP" class="margin-toggle" /><span class="sidenote">Geospatial Commission (2023). <em>Finding common ground: Integrating data, science and innovation for better use of land</em> - <a href="https://www.gov.uk/government/publications/finding-common-ground-integrating-data-science-and-innovation-for-better-use-of-land">URL</a> </span> last year, and the document puts in writing much of what we <a href="https://www.gov.uk/government/news/geospatial-commission-funded-tool-demonstrates-potential-for-ai-to-transform-decisions-about-land-use">presented to the minister for AI and intellectual property</a> last March. There is also an accompanying <a href="https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/">blog post</a> Mehul and his team at the Commission put out.</p>
+
+<p>Most of the report is a summary of what we learned in two specific
+exercises and a series of engagement events. I’ll give you the two-sentence version of each here but, if you are interested, you really should grab the report as it covers them much more comprehensively.
+In one, we took our initial <a href="https://urban-analytics-technology-platform.github.io/demoland-web/tyne_and_wear_hex/#10.06/55.1137/-1.5308">DemoLand app</a>, a tool that helps users explore different land use scenarios and their effect on areas such as air quality or house prices, and embedded a chat interface powered by a large language model. The original tool provided access to a lot of data and modelling that would be hard to access for non-technical audiences otherwise, but it still required the user to “know their way around”. With the new chat-based interface, exploring the results is a much more conversational experience that can reach larger even audiences.
+In the second exercise, we digged into the guts of the models that power land
+use applications such as those in DemoLand. Typically, many of these require
+data that is collected and released more slowly than ideally required for
+decision making (e.g., Census or building cadasters). We explored
+complementing, or even replacing, these by widely available satellite imagery.
+Satellite data is definitely not a new thing, we’ve had metal boxes orbitting
+the Earth since at least the 1950s, but there are a few <em>recent</em> things that
+make them more appealing. The revolution in computer vision (and what is now
+also termed AI) we have seen in the last 15 years has changed what we are able
+to do with imagery, even that of limited spatial resolution. In this exercise,
+we explore foundation models for vision (a bit like the GPT in ChatGPT but for
+satellite data) to see how far we could push them. The result is a series of
+what I consider extremely exciting results but others might see as largely dry
+performance scores tables. You can get a summary of those in the report.
+In addition to these two exercises, we also ran consultation events (at <a href="https://www.turing.ac.uk/events/ai-uk-2024">AI
+UK’24</a> and online) with experts to
+get a broader view on the potential, challenges and immediate opportunities of
+geospatial AI for land use. I could summarise those, but I won’t do a better
+job than the report, so head over to its “Section 3” for that.</p>
+
+<p>What will probably (I hope!) catch most attention is the “Recommendations”
+section. Here is where we brought together everything we learnt in these
+exercises to propose concrete steps forward. In particular, we mention five:</p>
+
+<p>1/ Identify additional areas of opportunity for satellite data to build the value case for geospatial AI.</p>
+
+<p>2/ Develop a Geospatial AI Toolkit for LLMs.</p>
+
+<p>3/ Expand the conversation on national foundation models to land use and geospatial.</p>
+
+<p>4/ Improve access to key computational and data resources.</p>
+
+<p>5/ Promote knowledge sharing and cross-discipline collaboratio.</p>
+
+<p>Some are self-explanatory and I suspect few will disagree with them (who is
+against more knowledge sharing?). Others bring to the front
+discussions that we think deserve more attention than they’re currently
+receiving. LLMs, for example, are not very good at geography (there is a
+reason why the second L is not a G!). Before we jump in and take them
+off-the-self, we think there is work to do to develop the “Geography
+curriculum” we’d like these models to know when they help folks on
+spatial domains. And others seem more obvious than they actually are.
+Suggesting in 2024 that satellite data be used for land use change may cause
+unreparable eye-rolls among land use experts who’ve been doing this in an
+academic context for several decades. Yet there is still very little of it
+that has made it into “production” at scale, particularly in non environmental
+and physical domains such as cities and society<label for="Imago" class="margin-toggle sidenote-number"></label><input type="checkbox" id="Imago" class="margin-toggle" /><span class="sidenote">This is one
+of the core ideas that made <a href="https://www.sdruk.ukri.org/2024/10/17/22-million-for-new-smart-data-services/">Imago</a> a winning proposition, so watch this space. </span>. So think twice before sending your eyes upwards.</p>
+
+<p>Above all, and ironically given that it summarises past work, we hope this becomes a conversation starter. There is so much exciting stuff that is happening in the world of AI that could have tremendous implications for land use modelling and management. <em>What</em> exactly and, specially, <em>how</em> are debates we have just begun and are far from done. But we think they are worth having <em>and</em> actioning on. To work.</p>
+
+
+
+    </article>
+    <span class="print-footer">Report on AI and Land Use - November 14, 2024 - Dani Arribas-Bel</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.darribas.org"><span class="icon-html-five"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.twitter.com/darribas"><span class="icon-twitter"></span></a>
+      </li>
+      
+      <li>
+        <a href="/anotes/feed.xml"><span class="icon-rss2"></span></a>
+      </li>
+  </ul>
+<div class="credits">
+<span><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+        2024 &nbsp;&nbsp;DANI ARRIBAS-BEL</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Notes along the way </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

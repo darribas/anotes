@@ -5,9 +5,79 @@
     <description>Archive of academic notes</description>
     <link>/anotes/</link>
     <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 May 2024 23:56:15 +0100</pubDate>
-    <lastBuildDate>Tue, 07 May 2024 23:56:15 +0100</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Thu, 14 Nov 2024 16:19:31 +0000</pubDate>
+    <lastBuildDate>Thu, 14 Nov 2024 16:19:31 +0000</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Report on AI and Land Use</title>
+        <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Geospatial AI for Land Use, by The Alan Turing Institute&lt;/strong&gt;&lt;/em&gt;. Independent Report
+from The Alan Turing Institute - &lt;a href=&quot;https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;URL&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;How geospatial AI can help inform our land use choices&lt;/strong&gt;&lt;/em&gt;. Blog post from the Geospatial Commission on the report - &lt;a href=&quot;https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;URL&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;TODAY, the &lt;a href=&quot;https://www.gov.uk/government/organisations/geospatial-commission&quot;&gt;Geospatial Commission&lt;/a&gt; released the &lt;a href=&quot;https://www.gov.uk/government/publications/geospatial-ai-for-land-use-by-the-alan-turing-institute/geospatial-ai-for-land-use-by-the-alan-turing-institute&quot;&gt;report&lt;/a&gt; we&lt;label for=&quot;We&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;We&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The team on this project spanned folks at the Commission and Urban Analytics@Turing. At Turing, Barbara Metzler and Stuart Lynn did most of the heavy lifting, and I was the lucky one to “see early demos and present it around”. &lt;/span&gt; prepared for a project we have been working over the last year in collaboration with them. The work builds on our earlier contribution to the National Land Data Programme&lt;label for=&quot;NLDP&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;NLDP&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Geospatial Commission (2023). &lt;em&gt;Finding common ground: Integrating data, science and innovation for better use of land&lt;/em&gt; - &lt;a href=&quot;https://www.gov.uk/government/publications/finding-common-ground-integrating-data-science-and-innovation-for-better-use-of-land&quot;&gt;URL&lt;/a&gt; &lt;/span&gt; last year, and the document puts in writing much of what we &lt;a href=&quot;https://www.gov.uk/government/news/geospatial-commission-funded-tool-demonstrates-potential-for-ai-to-transform-decisions-about-land-use&quot;&gt;presented to the minister for AI and intellectual property&lt;/a&gt; last March. There is also an accompanying &lt;a href=&quot;https://geospatialcommission.blog.gov.uk/2024/11/14/how-geospatial-ai-can-help-inform-our-land-use-choices/&quot;&gt;blog post&lt;/a&gt; Mehul and his team at the Commission put out.&lt;/p&gt;
+
+&lt;p&gt;Most of the report is a summary of what we learned in two specific
+exercises and a series of engagement events. I’ll give you the two-sentence version of each here but, if you are interested, you really should grab the report as it covers them much more comprehensively.
+In one, we took our initial &lt;a href=&quot;https://urban-analytics-technology-platform.github.io/demoland-web/tyne_and_wear_hex/#10.06/55.1137/-1.5308&quot;&gt;DemoLand app&lt;/a&gt;, a tool that helps users explore different land use scenarios and their effect on areas such as air quality or house prices, and embedded a chat interface powered by a large language model. The original tool provided access to a lot of data and modelling that would be hard to access for non-technical audiences otherwise, but it still required the user to “know their way around”. With the new chat-based interface, exploring the results is a much more conversational experience that can reach larger even audiences.
+In the second exercise, we digged into the guts of the models that power land
+use applications such as those in DemoLand. Typically, many of these require
+data that is collected and released more slowly than ideally required for
+decision making (e.g., Census or building cadasters). We explored
+complementing, or even replacing, these by widely available satellite imagery.
+Satellite data is definitely not a new thing, we’ve had metal boxes orbitting
+the Earth since at least the 1950s, but there are a few &lt;em&gt;recent&lt;/em&gt; things that
+make them more appealing. The revolution in computer vision (and what is now
+also termed AI) we have seen in the last 15 years has changed what we are able
+to do with imagery, even that of limited spatial resolution. In this exercise,
+we explore foundation models for vision (a bit like the GPT in ChatGPT but for
+satellite data) to see how far we could push them. The result is a series of
+what I consider extremely exciting results but others might see as largely dry
+performance scores tables. You can get a summary of those in the report.
+In addition to these two exercises, we also ran consultation events (at &lt;a href=&quot;https://www.turing.ac.uk/events/ai-uk-2024&quot;&gt;AI
+UK’24&lt;/a&gt; and online) with experts to
+get a broader view on the potential, challenges and immediate opportunities of
+geospatial AI for land use. I could summarise those, but I won’t do a better
+job than the report, so head over to its “Section 3” for that.&lt;/p&gt;
+
+&lt;p&gt;What will probably (I hope!) catch most attention is the “Recommendations”
+section. Here is where we brought together everything we learnt in these
+exercises to propose concrete steps forward. In particular, we mention five:&lt;/p&gt;
+
+&lt;p&gt;1/ Identify additional areas of opportunity for satellite data to build the value case for geospatial AI.&lt;/p&gt;
+
+&lt;p&gt;2/ Develop a Geospatial AI Toolkit for LLMs.&lt;/p&gt;
+
+&lt;p&gt;3/ Expand the conversation on national foundation models to land use and geospatial.&lt;/p&gt;
+
+&lt;p&gt;4/ Improve access to key computational and data resources.&lt;/p&gt;
+
+&lt;p&gt;5/ Promote knowledge sharing and cross-discipline collaboratio.&lt;/p&gt;
+
+&lt;p&gt;Some are self-explanatory and I suspect few will disagree with them (who is
+against more knowledge sharing?). Others bring to the front
+discussions that we think deserve more attention than they’re currently
+receiving. LLMs, for example, are not very good at geography (there is a
+reason why the second L is not a G!). Before we jump in and take them
+off-the-self, we think there is work to do to develop the “Geography
+curriculum” we’d like these models to know when they help folks on
+spatial domains. And others seem more obvious than they actually are.
+Suggesting in 2024 that satellite data be used for land use change may cause
+unreparable eye-rolls among land use experts who’ve been doing this in an
+academic context for several decades. Yet there is still very little of it
+that has made it into “production” at scale, particularly in non environmental
+and physical domains such as cities and society&lt;label for=&quot;Imago&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Imago&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is one
+of the core ideas that made &lt;a href=&quot;https://www.sdruk.ukri.org/2024/10/17/22-million-for-new-smart-data-services/&quot;&gt;Imago&lt;/a&gt; a winning proposition, so watch this space. &lt;/span&gt;. So think twice before sending your eyes upwards.&lt;/p&gt;
+
+&lt;p&gt;Above all, and ironically given that it summarises past work, we hope this becomes a conversation starter. There is so much exciting stuff that is happening in the world of AI that could have tremendous implications for land use modelling and management. &lt;em&gt;What&lt;/em&gt; exactly and, specially, &lt;em&gt;how&lt;/em&gt; are debates we have just begun and are far from done. But we think they are worth having &lt;em&gt;and&lt;/em&gt; actioning on. To work.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        <link>/anotes/articles/24/gc_report</link>
+        <guid isPermaLink="true">/anotes/articles/24/gc_report</guid>
+        
+        
+      </item>
     
       <item>
         <title>RGS Award</title>
@@ -33,7 +103,7 @@
       </item>
     
       <item>
-        <title>Duranton's notes on Urban Economics</title>
+        <title>Duranton&apos;s notes on Urban Economics</title>
         <description>&lt;p&gt;&lt;label for=&quot;intro&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;intro&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;The original tweet that inspired this post is
 &lt;a href=&quot;https://twitter.com/gandhisahil/status/1678344609028505601&quot;&gt;here&lt;/a&gt; but, in
 case the “bird” decides to change things up, the slide deck discussed is
@@ -288,7 +358,7 @@ friend to tell a friend!) &lt;/span&gt;&lt;/p&gt;
       </item>
     
       <item>
-        <title>Royal Society's Multifunctional landscapes</title>
+        <title>Royal Society&apos;s Multifunctional landscapes</title>
         <description>&lt;p&gt;&lt;label for=&quot;intro&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;intro&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;These are notes from my reading of the executive summary of the
 &lt;a href=&quot;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&quot;&gt;Multifunctional landscapes&lt;/a&gt; report the Royal Society published earlier this
 week. The summary is really succinct and makes all the good points in five recommendations. These are some of my opinionated
@@ -321,7 +391,7 @@ to judge the compatibility of different policy commitments. These need to be
 based on robust data and analytics, and be transparent.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;cite&gt; The Royal Society (2023). &lt;em&gt;Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary&lt;/em&gt;. ISBN: 978-1-78252-633-9. &lt;a href=&quot;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&lt;/code&gt;&lt;/a&gt; &lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt; The Royal Society (2023). &lt;em&gt;Multifunctional landscapes: Informing a long-term vision for managing the UK’s land - Executive summary&lt;/em&gt;. ISBN: 978-1-78252-633-9. &lt;a href=&quot;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://royalsociety.org/topics-policy/projects/living-landscapes/multifunctional-land-use/&lt;/code&gt;&lt;/a&gt; &lt;/cite&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Feb 2023 12:00:00 +0000</pubDate>
         <link>/anotes/articles/23/rsml</link>
@@ -335,7 +405,7 @@ based on robust data and analytics, and be transparent.&lt;/li&gt;
         <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1547539954691182596&quot;&gt;Twitter
 thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;I’m super glad the lovely &lt;a href=&quot;https://twitter.com/RSSMerseyside&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@RSSMerseyside&lt;/code&gt;&lt;/a&gt;/&lt;a href=&quot;https://twitter.com/hipyliv&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@hipyliv&lt;/code&gt;&lt;/a&gt; folks put together the “Using open data sources” event and made the recording available:&lt;/p&gt;
+&lt;p&gt;I’m super glad the lovely &lt;a href=&quot;https://twitter.com/RSSMerseyside&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RSSMerseyside&lt;/code&gt;&lt;/a&gt;/&lt;a href=&quot;https://twitter.com/hipyliv&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@hipyliv&lt;/code&gt;&lt;/a&gt; folks put together the “Using open data sources” event and made the recording available:&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3hYWLYApoA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -514,15 +584,15 @@ accordingly.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Levelling Up &amp; Moran's I</title>
+        <title>Levelling Up &amp; Moran&apos;s I</title>
         <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1489162746046394369&quot;&gt;Twitter
 thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full &lt;code class=&quot;highlighter-rouge&quot;&gt;#levellingupwhitepaper&lt;/code&gt; is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!&lt;/p&gt;
+&lt;p&gt;Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#levellingupwhitepaper&lt;/code&gt; is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!&lt;/p&gt;
 
 &lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&amp;amp;name=medium&quot; /&gt;&lt;figcaption&gt;The Figure&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic &lt;code class=&quot;highlighter-rouge&quot;&gt;#DataScience&lt;/code&gt; and spatial analysis courses alike (like mine! &lt;a href=&quot;https://darribas.org/gds_course/&quot;&gt;https://darribas.org/gds_course/&lt;/a&gt;. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &amp;lt;10min:&lt;/p&gt;
+&lt;p&gt;The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#DataScience&lt;/code&gt; and spatial analysis courses alike (like mine! &lt;a href=&quot;https://darribas.org/gds_course/&quot;&gt;https://darribas.org/gds_course/&lt;/a&gt;. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &amp;lt;10min:&lt;/p&gt;
 
 &lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqG2QmX0AAz5Bk?format=jpg&amp;amp;name=medium&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Me, my living room, and spatial autocorrelation (check out the video &lt;a href=&quot;https://darribas.org/gds_course/content/bF/concepts_F.html#spatial-autocorrelation&quot;&gt;here&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
 
@@ -538,7 +608,7 @@ thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 &lt;a href=&quot;http://mybinder.org/repo/darribas/int_sp_auto&quot;&gt;here&lt;/a&gt;.
 &lt;img src=&quot;https://pbs.twimg.com/media/FKqH7yJXEAEyjPG?format=jpg&amp;amp;name=medium&quot; alt=&quot;&quot; /&gt;
 Thanks to the
-voila team &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;@mybinderteam&lt;/code&gt; for the awesome infrastructure powering
+voila team &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@mybinderteam&lt;/code&gt; for the awesome infrastructure powering
 this! &lt;/span&gt; I
 wrote to help students grasp the intuition behind the statistic, and
 you too can play with it! For a 14 minute version of what is Moran’s I and why you should love it, welcome back to my living room!&lt;/p&gt;
@@ -553,7 +623,7 @@ you too can play with it! For a 14 minute version of what is Moran’s I and why
 
 &lt;p&gt;So, to wrap up, although there are always ways to improve, I think it is awesome that policy makers are using these tools to inform their views on the world the decide on. This will be a very good example for prospective geography students on why they should take my numbers course even though what they really want is to “make a difference in politics”! Could it be improved the way these statistics are used in policy? Of course, but that is as much a job of policy makers as it is for us academics and data scientists “in the know”. The solution is not to remove the figure, but to have more of them, and to generate discussion around it so, over time, we all collectively get better at using data and stats for big policy “things”.&lt;/p&gt;
 
-&lt;p&gt;And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website&lt;label for=&quot;Website&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Website&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://darribas.org/gds_course&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https://darribas.org/gds_course&lt;/code&gt;&lt;/a&gt; &lt;/span&gt; or on the YouTube playlist&lt;label for=&quot;Playlist&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Playlist&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU&quot;&gt;YouTube Playlist&lt;/a&gt; &lt;/span&gt;! See you on the next big policy paper that uses spatial stats!&lt;/p&gt;
+&lt;p&gt;And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website&lt;label for=&quot;Website&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Website&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://darribas.org/gds_course&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://darribas.org/gds_course&lt;/code&gt;&lt;/a&gt; &lt;/span&gt; or on the YouTube playlist&lt;label for=&quot;Playlist&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Playlist&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU&quot;&gt;YouTube Playlist&lt;/a&gt; &lt;/span&gt;! See you on the next big policy paper that uses spatial stats!&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
@@ -587,40 +657,6 @@ I’m always on the hunt for good books on computers, cities, and data (or anyth
         <pubDate>Mon, 27 Dec 2021 12:00:00 +0000</pubDate>
         <link>/anotes/articles/21/bestofbooks</link>
         <guid isPermaLink="true">/anotes/articles/21/bestofbooks</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Open Data Products paper</title>
-        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1451522005505875992&quot;&gt;Twitter
-thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Together with Mark Green, Francisco Rowe, and Alex Singleton, we have a &lt;a href=&quot;https://link.springer.com/article/10.1007/s10109-021-00363-5&quot;&gt;new paper&lt;/a&gt; out in the Journal of Geographical Systems pushing forward the idea of Open Data Products as a vehicle to make (Geographic) Data Science more impactful.&lt;/p&gt;
-
-&lt;p&gt;We define Open Data Product as &lt;em&gt;“the open result of transparent processes
-through which a variety of data (open and not) are turned into accessible
-information through a service, infrastructure, analytics or a combination of
-all of them, where each step of development follows open principles.&lt;/em&gt; We argue there’re at least three building blocks of an ODP: a need, a value proposition, Geographic Data Science, and outreach. Let me unpack each a bit.&lt;/p&gt;
-
-&lt;p&gt;First, the need. ODPs are born out of trying to scratch an itch. We think this process is most useful when co-produced with stake-holders who’ll benefit from it most. The &lt;a href=&quot;https://twitter.com/markalangreen/status/1448266593654480899&quot;&gt;recent award&lt;/a&gt; to our own Mark Green and Jacob MacDonald for Local Data Spaces is a great example.&lt;/p&gt;
-
-&lt;p&gt;Second, value: it’s not enough to identify a gap, ODPs also need to &lt;em&gt;fill&lt;/em&gt; it beyond what is available. This means publishing existing datasets on their own is usually not enough. So, how do you add value?&lt;/p&gt;
-
-&lt;p&gt;Third, Geographic Data Science. Geographic Data Science: we argue, given the undergoing data revolution where many datasets are not quite ready for use at the point of release, much of the contribution of ODPs resides in applying &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1111/gean.12194&quot;&gt;(Geographic) Data Science&lt;/a&gt; to turn them into analysis-ready.&lt;/p&gt;
-
-&lt;p&gt;Fourth, outreach. Just because something is “out there” doesn’t mean people know about it or will use it. Paraphrasing the old say: “if you build it, they’ll come… if you call them, signpost the way, and welcome them”. Another home-grown example of good outreach includes the &lt;a href=&quot;https://twitter.com/Fcorowe/status/1419929045861605380&quot;&gt;work&lt;/a&gt; led by our own Francisco Rowe and Nikos Patias to inform policies on inequalities in the UK.&lt;/p&gt;
-
-&lt;p&gt;In the paper we also identify challenges that will probably make the world see less ODPs than it should, mostly related to incentives &amp;amp; sustainability. We need to be mindful and work around them… And, finally, we close drawing parallels w/ the open source software revolution from 20 years ago. The “new kid in the block” is not software anymore but data, and most research will be unlocked (or not) by what we do with them.&lt;/p&gt;
-
-&lt;p&gt;A last note: we started this four years ago and a lot has happened in the world of data. If anything, my personal view is we underestimated the effects of some of the developments we documented.&lt;/p&gt;
-
-&lt;p&gt;In any case, it is now out for everyone to read and, hopefully, comment/rant/(dis)agree and stimulate the conversation so we can make the most out of what we believe is the most significant changes for the (social) sciences this century.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 22 Oct 2021 13:00:00 +0100</pubDate>
-        <link>/anotes/articles/21/odp</link>
-        <guid isPermaLink="true">/anotes/articles/21/odp</guid>
         
         
       </item>
