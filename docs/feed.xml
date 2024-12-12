@@ -5,8 +5,8 @@
     <description>Archive of academic notes</description>
     <link>/anotes/</link>
     <atom:link href="/anotes/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Dec 2024 14:13:11 +0000</pubDate>
-    <lastBuildDate>Wed, 11 Dec 2024 14:13:11 +0000</lastBuildDate>
+    <pubDate>Thu, 12 Dec 2024 16:12:53 +0000</pubDate>
+    <lastBuildDate>Thu, 12 Dec 2024 16:12:53 +0000</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -15,19 +15,21 @@
 last time I did this looks like, head over &lt;a href=&quot;https://darribas.org/anotes/articles/21/bestofbooks&quot;&gt;here&lt;/a&gt;. &lt;/span&gt;
 Spotify just dropped Wrapped.
 The lists of the best everything in 2024 start rolling on.
-So here’s mine.&lt;label for=&quot;GR&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;GR&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;You can see a slightly fancier version
+And I can’t help having a go at mine.&lt;label for=&quot;GR&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;GR&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;You can see a slightly fancier version
 &lt;a href=&quot;https://www.goodreads.com/user/year_in_books/2024/5317416&quot;&gt;here&lt;/a&gt;. I’m
 reluctant to pay much attention to it because a) it counts my two dropped
 books as read and b) because… Goodreads. It’s 2024, your service is no
 better than in 2014. Most frustratingly, it &lt;em&gt;could&lt;/em&gt; be sooo much better. Oh
 well, digression… &lt;/span&gt;
+One of the few practices I’ve kept over the years, even in the face of pretty
+substantial life style changes (e.g., baby) is reading. So, here’s my list of
+books from 2024.
 Let’s get all due caveats out of the way first of all. It’s
 technically not a “best of” but rather “all of”. I did not &lt;em&gt;love&lt;/em&gt; all the
 books in there, but I did read them. Unlike many smart people profess, I have a really hard time
 giving up on a book I have started. This year though, I’m glad I stuck with all
 of them. Also, technically, I did not &lt;em&gt;read&lt;/em&gt; all of them either. A good chunk of
-them I listened to while doing the dishes (one of the reasons why I actually
-really like house chores…). And, at the risk of stating the obvious, it’s
+them I listened to while doing the dishes (more on this below). And, at the risk of stating the obvious, it’s
 December 11th., the year has not ended. I’m currently on three books 
 (&lt;a href=&quot;https://www.goodreads.com/book/show/144421737-what-if-we-get-it-right&quot;&gt;one&lt;/a&gt;,
 &lt;a href=&quot;https://www.goodreads.com/book/show/40859000-delta-v&quot;&gt;two&lt;/a&gt;,
@@ -38,7 +40,7 @@ So, on we go.&lt;/p&gt;
 
 &lt;p&gt;If by best we mean a book that makes you stay up way too late reading, and you
 think about long after you’ve finished, the clear winner this year is &lt;em&gt;The
-Deluge&lt;/em&gt;. It’s hard to state in words how much I liked a 900p. book mostly
+Deluge&lt;/em&gt;. It’s hard to state in words how much I liked what is a 900p. book mostly
 about climate change. Don’t be fooled though, this is not the type of
 sci/cli-fi where characters and story are simple vehicles for the Big Ideas.
 There are lots of those (Big Ideas), but there are also real characters.
@@ -201,16 +203,6 @@ of the core ideas that made &lt;a href=&quot;https://www.sdruk.ukri.org/2024/10/
         <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
         <link>/anotes/articles/24/gc_report</link>
         <guid isPermaLink="true">/anotes/articles/24/gc_report</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gc_report   copy.md:zone</title>
-        <description></description>
-        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-        <link>/anotes/articles/24/gc_report-Copy.md-Zone</link>
-        <guid isPermaLink="true">/anotes/articles/24/gc_report-Copy.md-Zone</guid>
         
         
       </item>
@@ -715,6 +707,56 @@ accordingly.&lt;/p&gt;
         <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
         <link>/anotes/articles/22/prof</link>
         <guid isPermaLink="true">/anotes/articles/22/prof</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Levelling Up &amp; Moran&apos;s I</title>
+        <description>&lt;p&gt;&lt;label for=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;twitter-thread&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;This text was originally posted as a &lt;a href=&quot;https://twitter.com/darribas/status/1489162746046394369&quot;&gt;Twitter
+thread&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Plenty of folks better placed to deliver hot takes so I’ll spare you mine… But, by my own account, the most statistically sophisticated fig in the full &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#levellingupwhitepaper&lt;/code&gt; is one on spatial stats(!). Gist: not wrong, not right either, but definitely cool!&lt;/p&gt;
+
+&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqCju7XoBojrke?format=png&amp;amp;name=medium&quot; /&gt;&lt;figcaption&gt;The Figure&amp;#8230;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The plot shows Moran’s I vs deprivation prevalence in Local Authorities. What’s Moran’s I? I’m glad you asked, this is a staple of Geographic &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#DataScience&lt;/code&gt; and spatial analysis courses alike (like mine! &lt;a href=&quot;https://darribas.org/gds_course/&quot;&gt;https://darribas.org/gds_course/&lt;/a&gt;. Moran’s I measures global spatial autocorrelation, capturing the degree to which values concentrate spatially. For a bit more on spatial autocorrelation, here’s me in my living room last year explaining pandemic-distanced students what it is in &amp;lt;10min:&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqG2QmX0AAz5Bk?format=jpg&amp;amp;name=medium&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Me, my living room, and spatial autocorrelation (check out the video &lt;a href=&quot;https://darribas.org/gds_course/content/bF/concepts_F.html#spatial-autocorrelation&quot;&gt;here&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Moran’s I is also a way to “summarise a map” in that it assigns a value to a pattern of spatial concentration. Your map looks like this? Moran’s I is high and approaching 1…&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqHa_xXEAIBxJe?format=png&amp;amp;name=900x900&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;High Moran&amp;#8217;s I&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Your map looks like this? Moran’s I will be low and approaching -1…&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqHjSQWUAUeFg9?format=png&amp;amp;name=900x900&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Low Moran&amp;#8217;s I&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;By the way, these figures are created using a small simulation tool&lt;label for=&quot;voila&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;voila&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Launch it on the cloud from
+&lt;a href=&quot;http://mybinder.org/repo/darribas/int_sp_auto&quot;&gt;here&lt;/a&gt;.
+&lt;img src=&quot;https://pbs.twimg.com/media/FKqH7yJXEAEyjPG?format=jpg&amp;amp;name=medium&quot; alt=&quot;&quot; /&gt;
+Thanks to the
+voila team &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@mybinderteam&lt;/code&gt; for the awesome infrastructure powering
+this! &lt;/span&gt; I
+wrote to help students grasp the intuition behind the statistic, and
+you too can play with it! For a 14 minute version of what is Moran’s I and why you should love it, welcome back to my living room!&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;https://pbs.twimg.com/media/FKqI3LWXEAIEYD3?format=jpg&amp;amp;name=medium&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Me, my living room, and Moran&amp;#8217;sI (check out the video &lt;a href=&quot;https://darribas.org/gds_course/content/bF/concepts_F.html#global-spatial-autocorrelation&quot;&gt;here&lt;/a&gt;)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This brings me back to Figure 1.23 in yesterday’s white paper, which took me a bit to decipher because it uses Moran’s I in a non-standard way. The point it’s trying to make is that cities w/ more income deprived population tend to display deprivation more spatially concentrated. This is an interesting pattern because it is saying that cities with more deprivation are also different in the way the deprivation is structured spatially (ie. more deprivation is related to more fundamental changes in how this is spatially configured).&lt;/p&gt;
+
+&lt;p&gt;But while the graph is not wrong… it is also not entirely correct. It is well understood that Moran’s I scores (the statistic itself, which is on the vertical axis of the figure) are not directly comparable across different geographies. The reason is a bit technical, but has to do with comparing different sample sizes and spatial configurations of values. A topic for another thread perhaps… More importantly, Moran’s I is not that useful as a deterministic statistic, as a score. A value of 0.3 can mean something very different in two different local authorities. This has to do again with the underlying assumptions of the statistic, but mostly because in some cases we will have enough evidence to say that value points to spatial concentration and, in others, it will be indistinguishable from a completely spatially random map. I’d have probably used any visual cue (eg. dimming non-significant values) to emphasize this aspect and bring more nuance to the figure.&lt;/p&gt;
+
+&lt;p&gt;Again, let me repeat the figure is not wrong. Using raw Moran’s I scores to gauge broad patterns is a sensible strategy to &lt;em&gt;explore&lt;/em&gt; your data. Whether I’d choose to include the figure as it is on a final report is a different question…&lt;/p&gt;
+
+&lt;p&gt;So, to wrap up, although there are always ways to improve, I think it is awesome that policy makers are using these tools to inform their views on the world the decide on. This will be a very good example for prospective geography students on why they should take my numbers course even though what they really want is to “make a difference in politics”! Could it be improved the way these statistics are used in policy? Of course, but that is as much a job of policy makers as it is for us academics and data scientists “in the know”. The solution is not to remove the figure, but to have more of them, and to generate discussion around it so, over time, we all collectively get better at using data and stats for big policy “things”.&lt;/p&gt;
+
+&lt;p&gt;And that’s a wrap! If the nerdy bits of this post peeked your interest, consider spending a bit more time on the course website&lt;label for=&quot;Website&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Website&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://darribas.org/gds_course&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://darribas.org/gds_course&lt;/code&gt;&lt;/a&gt; &lt;/span&gt; or on the YouTube playlist&lt;label for=&quot;Playlist&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Playlist&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://youtube.com/playlist?list=PLaYT7Y2aK2d6vs3h38jnjrTEpSS7VYLwU&quot;&gt;YouTube Playlist&lt;/a&gt; &lt;/span&gt;! See you on the next big policy paper that uses spatial stats!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 03 Feb 2022 12:00:00 +0000</pubDate>
+        <link>/anotes/articles/22/lu</link>
+        <guid isPermaLink="true">/anotes/articles/22/lu</guid>
         
         
       </item>
